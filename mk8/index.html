@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Mario Kart 8 Stats</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="Eric Tallman">
+
+	<link href="_assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="_assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="_assets/css/mkstats.css" rel="stylesheet">
+
+	<!-- Fav and touch icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="_assets/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="_assets/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="_assets/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="_assets/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" href="_assets/img/favicon.png">
+
+</head>
+<body>
+
+	<!-- navigation -->
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-xs-12 column">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#index" ><img src="_assets/img/mk8_icon.png" alt="Mario Kart 8"></a>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#index">Home</a>
+							</li>
+							<li class="login-link">
+								<a href="#" data-toggle="modal" data-target="#loginModal">Login</a>
+							</li>
+							<li class="logout-link requires-non-public-login">
+								<a href="#">Logout</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<div id="main">
+
+		<div id="loading-spinner" style="display: none;">
+			<i class="fa fa-refresh fa-spin fa-2x"></i>
+		</div>
+
+		<div class="index-page" style="display:none;">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="col-xs-12">
+						<h3>Tournaments</h3>
+					</div>
+				</div>
+				<div class="responsive-table">
+					<table class="table table-striped table-hover">
+						<thead>
+							<tr>
+								<th>Participants</th>
+								<th>Number of Races</th>
+								<th>Leader(s)</th>
+							</tr>
+						</thead>
+						<tbody class="tournaments"></tbody>
+					</table>
+				</div>
+			</div>
+		</div> <!-- /index-page -->
+
+		<div class="tournament-page" style="display:none;">
+			<div class="container">
+				<div class="error" style="display: none;">Unable to load the tournament</div>
+				<div class="row clearfix">
+					<div class="col-xs-12">
+						<h3 class="name"></h3>
+						<h4>Through <span class="race-count"></span> races</h4>
+						<div class="requires-non-public-login race-result-actions">
+							<div>
+								<button type="button" id="add-race-results" class="btn btn-xs btn-primary">
+									<strong><i class="fa fa-plus"></i> Add race results</strong>
+								</button>
+							</div>
+							<div class="selection-status" style="display: none;">
+								<span>
+									<span class="selected-count">0</span>/<span class="player-count">0</span> selected
+								</span>
+								<p>Click each row in order to assign a rank for the race, then click 'Save race results'.</p>
+							</div>
+							<div>
+								<button type="button" id="clear-unsaved-race-results" class="btn btn-xs btn-danger" style="display:none;">
+									<strong><i class="fa fa-times"></i> Cancel</strong>
+								</button>
+								<button type="button" id="reset-unsaved-race-results" class="btn btn-xs btn-danger" style="display:none;">
+									<strong><i class="fa fa-undo"></i> Reset</strong>
+								</button>
+								<button type="button" id="save-race-results" class="btn btn-xs btn-success">
+									<strong><i class="fa fa-save"></i> Save race results</strong>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="responsive-table">
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th>Rank</th>
+								<th>Participant</th>
+								<th>Points</th>
+								<th>Winning Percentage</th>
+								<th class="race-rank" style="display: none;">Race Position</th>
+							</tr>
+						</thead>
+						<tbody class="player-list"></tbody>
+					</table>
+				</div>
+			</div>
+		</div> <!-- /tournament-page -->
+
+	</div>
+
+	<!-- modals -->
+	<div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button aria-hidden="true" data-dismiss="modal" class="close" type="button">&times;</button>
+					<h3 class="modal-title">Login Now</h3>
+				</div>
+				<div class="modal-body">
+					<form id="loginForm" role="form">
+						<div class="form-group">
+							<label class="sr-only" for="loginFormUsername">Username</label>
+							<input type="text" class="form-control" id="loginFormUsername" placeholder="Username" required>
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="loginFormPassword">Password</label>
+							<input type="password" class="form-control" id="loginFormPassword" placeholder="Password" required>
+						</div>
+						<button id="loginFormSubmit" class="btn btn-block btn-danger"><strong>Sign In</strong></button>
+						<div class="error"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="_assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="_assets/js/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="_assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="_assets/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="_assets/js/jquery.json.min.js"></script>
+	<script type="text/javascript" src="_assets/js/jquery.ba-hashchange.min.js"></script>
+	<script type="text/javascript" src="_assets/js/bootbox.min.js"></script>
+	<script type="text/javascript" src="https://apps.getpario.com/app/487/api/pario-api.js"></script>
+	<script type="text/javascript" src="https://apps.getpario.com/app/487/api/pario-nav.js"></script>
+	<script type="text/javascript" src="https://apps.getpario.com/app/487/api/pario-ui.js"></script>
+	<script type="text/javascript" src="_assets/js/mkstats.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$.mkstats = $.MK({
+				cookieName:'mkstats-token',
+				cookieOptions: {
+					'expires': 3,
+					'path': '/'
+				},
+				url:'https://apps.getpario.com/app/487'
+			});
+		});
+	</script>
+
+</body>
+</html>

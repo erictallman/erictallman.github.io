@@ -1,0 +1,97 @@
+#loading-spinner {
+	height: 29px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 29px;
+}
+
+body.logged-in .login-link {
+	display: none;
+}
+
+body:not(.logged-in) .requires-non-public-login {
+	display: none;
+}
+
+.navbar-brand {
+	padding: 5px 10px;
+}
+
+.navbar-brand img {
+	height: 40px;
+}
+
+tr[data-id]:hover {
+	cursor: pointer;
+}
+
+.player-list .player {
+	padding: 15px;
+}
+
+.player-list .player td {
+	vertical-align: middle;
+}
+
+.player-list .player:hover {
+	opacity: .8;
+}
+
+.player-list .player .h4 {
+	margin-bottom: inherit;
+}
+
+.player-list .player .mii {
+	max-height: 50px;
+	max-width: 50px;
+}
+
+.race-result-actions {
+	display: inline;
+}
+
+.race-result-actions:not(.unsaved-changes) #save-race-results {
+	display: none;
+}
+
+.rank-1 {
+	background: #fdd017;
+}
+
+.rank-2 {
+	background: #bcc6cc;
+}
+
+.rank-3 {
+	background: #cd7f32;
+}
+
+.rank-4 {
+}
+
+.rank-5 {
+}
+
+.rank-6 {
+}
+
+.rank-7 {
+}
+
+.rank-8 {
+}
+
+.rank-9 {
+}
+
+.rank-10 {
+}
+
+.rank-11 {
+}
+
+.rank-12 {
+}
