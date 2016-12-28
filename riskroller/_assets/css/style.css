@@ -1,0 +1,19 @@
+img.attack,
+img.defend {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+	border: 5px solid transparent;
+}
+
+img.attack.a-win,
+img.defend.d-win {
+	background: #449d44;
+	border: 5px solid #449d44;
+	border-radius: 10px;
+}
+
+hr {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}

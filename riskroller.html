@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Risk Roller">
+		<meta name="author" content="Eric Tallman">
+
+		<title>Risk Roller</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+				integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css"  -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/superhero/bootstrap.min.css">
+		<!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+				integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous" -->
+
+		<link rel="stylesheet" href="riskroller/_assets/css/style.css">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+		<div class="container">
+
+			<form>
+
+				<div id="settingsPanel" class="collapse in">
+
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 attack-controls">
+							<h4>Attacking armies</h4>
+							<h6>Armies at Start</h6>
+							<input type="number" min="1" max="1000" data-bind="value:$root.attackingRemainingCount" />
+							<h6>Per Roll</h6>
+							<div class="attack-count-buttons btn-group" role="group" aria-label="Attacking armies per roll" data-toggle="buttons">
+								<label class="btn btn-danger"
+										data-bind="css:{active:$root.attackingCount()==1}, click: function() {$root.attackingCount(1)}, clickBubble: false"
+									><input type="radio" name="attackingCount" value="1" autocomplete="off"
+											data-bind="checked:$root.attackingCount"
+								>1</label>
+								<label class="btn btn-danger"
+										data-bind="css:{active:$root.attackingCount()==2}, click: function() {$root.attackingCount(2)}, clickBubble: false"
+									><input type="radio" name="attackingCount" value="2" autocomplete="off"
+											data-bind="checked:$root.attackingCount"
+								>2</label>
+								<label class="btn btn-danger"
+										data-bind="css:{active:$root.attackingCount()==3}, click: function() {$root.attackingCount(3)}, clickBubble: false"
+									><input type="radio" name="attackingCount" value="3" autocomplete="off"
+											data-bind="checked:$root.attackingCount"
+								>3</label>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 defend-controls">
+							<h4>Defending armies</h4>
+							<h6>Armies at Start</h6>
+							<input type="number" min="1" max="1000" data-bind="value:$root.defendingRemainingCount" />
+							<h6>Per Roll</h6>
+							<div class="defend-count-buttons btn-group" role="group" aria-label="Defending armies per roll" data-toggle="buttons">
+								<label class="btn btn-primary"
+										data-bind="css:{active:$root.defendingCount()==1}, click: function() {$root.defendingCount(1)}, clickBubble: false"
+									><input type="radio" name="defendingCount" value="1" autocomplete="off"
+											data-bind="checked:$root.defendingCount"
+								>1</label>
+								<label class="btn btn-primary"
+										data-bind="css:{active:$root.defendingCount()==2}, click: function() {$root.defendingCount(2)}, clickBubble: false"
+									><input type="radio" name="defendingCount" value="2" autocomplete="off"
+											data-bind="checked:$root.defendingCount"
+								>2</label>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<h4>Seconds between rolls</h4>
+							<div class="defend-count-buttons btn-group" role="group" aria-label="Defending armies per roll" data-toggle="buttons">
+								<label class="btn btn-default"
+										data-bind="css:{active:$root.secondDelay()==1}, click: function() {$root.secondDelay(1)}, clickBubble: false"
+									><input type="radio" name="secondDelay" value="1" autocomplete="off"
+											data-bind="checked:$root.secondDelay"
+								>1</label>
+								<label class="btn btn-default"
+										data-bind="css:{active:$root.secondDelay()==2}, click: function() {$root.secondDelay(2)}, clickBubble: false"
+									><input type="radio" name="secondDelay" value="2" autocomplete="off"
+											data-bind="checked:$root.secondDelay"
+								>2</label>
+								<label class="btn btn-default"
+										data-bind="css:{active:$root.secondDelay()==3}, click: function() {$root.secondDelay(3)}, clickBubble: false"
+									><input type="radio" name="secondDelay" value="3" autocomplete="off"
+											data-bind="checked:$root.secondDelay"
+								>3</label>
+								<label class="btn btn-default"
+										data-bind="css:{active:$root.secondDelay()==4}, click: function() {$root.secondDelay(4)}, clickBubble: false"
+									><input type="radio" name="secondDelay" value="4" autocomplete="off"
+											data-bind="checked:$root.secondDelay"
+								>4</label>
+								<label class="btn btn-default"
+										data-bind="css:{active:$root.secondDelay()==5}, click: function() {$root.secondDelay(5)}, clickBubble: false"
+									><input type="radio" name="secondDelay" value="5" autocomplete="off"
+											data-bind="checked:$root.secondDelay"
+								>5</label>
+							</div>
+						</div>
+					</div>
+					<hr>
+
+				</div> <!-- /#settingsPanel.collapse -->
+
+				<div class="row">
+					<div class="col-xs-12" data-bind="visible:!$root.running()">
+						<button
+								id="startTimerButton"
+								class="btn btn-success btn-lg btn-block timer-stopped btn-success"
+								type="button"
+								data-bind="
+									click:$root.startRolloff,
+									enable:$root.readyToRun()
+								"
+						>Fight!</button>
+					</div>
+					<div class="col-xs-6" data-bind="visible:$root.running()">
+						<button
+								type="button"
+								id="pauseButton"
+								class="btn btn-lg btn-block"
+								data-bind="
+									text:($root.paused()?'Resume':'Pause'),
+									css:{'timer-paused btn-success':$root.paused(), 'timer-notpaused btn-info':!$root.paused()},
+									click:$root.togglePause
+								"
+						></button>
+					</div>
+					<div class="col-xs-6" data-bind="visible:$root.running()">
+						<button
+								type="button"
+								id="stopTimerButton"
+								class="btn btn-success btn-lg btn-block timer-running btn-danger"
+								data-bind="click:$root.stopRolloff"
+						>Stop the bleeding!</button>
+					</div>
+				</div>
+
+				<div class="row collapse" id="scoringPanel">
+					<div class="col-xs-6">
+						<h3>Attackers Remaining</h3>
+						<h3 data-bind="text:$root.attackingRemainingCount, visible:($root.attackingRemainingCount()!=null)"></h3>
+						<div class="row" data-bind="visible:($root.attackRolls().length>0), foreach:{data:$root.attackRolls, as: 'die'}">
+							<div class="col-xs-12">
+								<img class="attack" data-bind="
+										css: 'd' + die
+												+ ' ' + $root.winningRolls()[$index()]
+										, attr:{src:'riskroller/_assets/image/attack-die-'+die+'.png'}"
+								/></div
+							>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<h3>Defenders Remaining</h3>
+						<h3 data-bind="text:$root.defendingRemainingCount, visible:($root.defendingRemainingCount()!=null)"></h3>
+						<div class="row" data-bind="visible:($root.defendRolls().length>0), foreach:{data:$root.defendRolls, as: 'die'}">
+							<div class="col-xs-12">
+								<img class="defend" data-bind="
+										css: 'd' + die
+												+ ' ' + $root.winningRolls()[$index()]
+										, attr:{src:'riskroller/_assets/image/defend-die-'+die+'.png'}"
+								/></div
+							>
+						</div>
+					</div>
+				</div>
+
+			</form>
+
+		</div>
+
+		<div class="templates" style="display: none;">
+
+			<img class="attack d1" src="riskroller/_assets/image/attack-die-1.png" />
+			<img class="attack d2" src="riskroller/_assets/image/attack-die-2.png" />
+			<img class="attack d3" src="riskroller/_assets/image/attack-die-3.png" />
+			<img class="attack d4" src="riskroller/_assets/image/attack-die-4.png" />
+			<img class="attack d5" src="riskroller/_assets/image/attack-die-5.png" />
+			<img class="attack d6" src="riskroller/_assets/image/attack-die-6.png" />
+
+			<img class="defend d1" src="riskroller/_assets/image/defend-die-1.png" />
+			<img class="defend d2" src="riskroller/_assets/image/defend-die-2.png" />
+			<img class="defend d3" src="riskroller/_assets/image/defend-die-3.png" />
+			<img class="defend d4" src="riskroller/_assets/image/defend-die-4.png" />
+			<img class="defend d5" src="riskroller/_assets/image/defend-die-5.png" />
+			<img class="defend d6" src="riskroller/_assets/image/attack-die-6.png" />
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+				integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+		<script src="riskroller/_assets/js/risk-roller.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				$.rad = $.riskAD();
+			});
+		</script>
+
+	</body>
+</html>
