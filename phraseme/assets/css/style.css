@@ -2,3 +2,14 @@ hr {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+
+.team-score .btn {
+	margin-left: 5px;
+	position: relative;
+	top: -3px;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+	font-size: 26px;
+}
