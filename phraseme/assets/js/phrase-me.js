@@ -37,6 +37,8 @@
 
 			repeatSpeed: ko.observable(1500),
 
+			winner: ko.observable(null),
+
 			goStop: function() {
 				viewModel.paused(!viewModel.paused());
 			},
@@ -46,8 +48,58 @@
 					// >1 so we can't jump past 0
 					viewModel.timeLeft(viewModel.timeLeft()-2);
 				}
+			},
+
+			incrementTeam1Score: function() {
+				viewModel.team1Score(viewModel.team1Score()+1);
+			},
+
+			decrementTeam1Score: function() {
+				viewModel.team1Score(viewModel.team1Score()-1);
+			},
+
+			resetTeam1Score: function() {
+				viewModel.team1Score(0);
+			},
+
+			incrementTeam2Score: function() {
+				viewModel.team2Score(viewModel.team2Score()+1);
+			},
+
+			decrementTeam2Score: function() {
+				viewModel.team2Score(viewModel.team2Score()-1);
+			},
+
+			resetTeam2Score: function() {
+				viewModel.team2Score(0);
 			}
 
+		};
+
+		/**
+		 * flash an element a few times and then hide it after a delay
+		 */
+		$.fn.flashAndHideElement = function(p_times, p_speed, p_delay) {
+			var self = this, i, speed = 'slow', delay = 3000, times = 2;
+			if (p_times !== undefined) {
+				times = p_times;
+			}
+			if (p_speed !== undefined) {
+				speed = p_speed;
+			}
+			if (p_delay !== undefined) {
+				delay = p_delay;
+			}
+			for(i = 0; i < times; i++) {
+				self.fadeIn(speed);
+				self.fadeOut(speed);
+			}
+			self.fadeIn(speed).queue(function() {
+				$(this).dequeue();
+				setTimeout(function() {
+					self.fadeOut(speed);
+				}, delay);
+			});
 		};
 
 		var setupKnockout = function() {
@@ -67,6 +119,7 @@
 					viewModel.timeLeft(60);
 					viewModel.goStop();
 					$.ionSound.play('bell_ring');
+					$('#end-of-round').flashAndHideElement(2, 400, 2000);
 				}
 			});
 			viewModel.paused.subscribe(function(newValue) {
@@ -93,6 +146,25 @@
 				}
 				if (!viewModel.paused()) {
 					runningIntervalFunction = setInterval(runningFunc, newValue);
+				}
+			});
+			viewModel.team1Score.subscribe(function(newValue) {
+				if (viewModel.winner()===null && newValue>=7) {
+					viewModel.winner(1);
+				} else if (viewModel.winner()==1 && newValue<7) {
+					viewModel.winner(null);
+				} 
+			});
+			viewModel.team2Score.subscribe(function(newValue) {
+				if (viewModel.winner()===null && newValue>=7) {
+					viewModel.winner(2);
+				} else if (viewModel.winner()==2 && newValue<7) {
+					viewModel.winner(null);
+				} 
+			});
+			viewModel.winner.subscribe(function(newValue) {
+				if (newValue!==null) {
+					$('#end-of-round').flashAndHideElement(4, 400, 3000);
 				}
 			});
 		};

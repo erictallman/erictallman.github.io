@@ -3,6 +3,36 @@ hr {
 	margin-top: 10px;
 }
 
+#end-of-round {
+	background: #000;
+	background-color: rgba(0,0,0,0.7);
+	bottom: 0;
+	font-size: 200px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+}
+
+#end-of-round .glyphicon {
+	background-color: rgba(255,255,255,1);
+	border: 20px solid white;
+	border-radius: 10px;
+}
+
+#end-of-round .glyphicon-thumbs-down {
+	color: darkred;
+}
+
+#end-of-round .glyphicon-thumbs-up {
+	color: green;
+}
+
+#end-of-round .winning-team {
+	font-size: 30px;
+}
+
 .team-score .btn {
 	margin-left: 5px;
 	position: relative;

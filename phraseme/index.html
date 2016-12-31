@@ -28,8 +28,12 @@
 
 	</head>
 	<body>
-
 		<div class="container text-center">
+			<div id="end-of-round" style="display: none;"
+				><span class="glyphicon"
+					data-bind="css:($root.winner()!==null?'glyphicon-thumbs-up':'glyphicon-thumbs-down')" aria-hidden="true"
+				></span><div class="winning-team" data-bind="visible:$root.winner()!==null,text:'Team '+$root.winner()+ ' Wins!'"
+			></div></div>
 			<div class="row">
 				<div class="col-xs-12">
 					<button type="button" data-bind="click:$root.goStop" class="btn btn-primary btn-block btn-lg"
@@ -50,13 +54,13 @@
 					<div class="h4">Team 1</div>
 					<div class="h3 team-score">
 						<span data-bind="text:$root.team1Score"></span
-						><button type="button" class="btn btn-xs btn-info"
+						><button type="button" class="btn btn-sm btn-info" data-bind="click:$root.incrementTeam1Score"
 							><span class="glyphicon glyphicon-plus" aria-hidden="true"></span
 						></button
-						><button type="button" class="btn btn-xs btn-default"
+						><button type="button" class="btn btn-sm btn-default" data-bind="click:$root.decrementTeam1Score"
 							><span class="glyphicon glyphicon-minus" aria-hidden="true"></span
 						></button
-						><button type="button" class="btn btn-xs btn-default"
+						><button type="button" class="btn btn-sm btn-default" data-bind="click:$root.resetTeam1Score"
 							><span class="glyphicon glyphicon-remove" aria-hidden="true"></span
 						></button>
 					</div>
@@ -65,13 +69,13 @@
 					<div class="h4">Team 2</div>
 					<div class="h3 team-score">
 						<span data-bind="text:$root.team2Score"></span
-						><button type="button" class="btn btn-xs btn-danger"
+						><button type="button" class="btn btn-sm btn-danger" data-bind="click:$root.incrementTeam2Score"
 							><span class="glyphicon glyphicon-plus" aria-hidden="true"></span
 						></button
-						><button type="button" class="btn btn-xs btn-default"
+						><button type="button" class="btn btn-sm btn-default" data-bind="click:$root.decrementTeam2Score"
 							><span class="glyphicon glyphicon-minus" aria-hidden="true"></span
 						></button
-						><button type="button" class="btn btn-xs btn-default"
+						><button type="button" class="btn btn-sm btn-default" data-bind="click:$root.resetTeam2Score"
 							><span class="glyphicon glyphicon-remove" aria-hidden="true"></span
 						></button>
 					</div>
