@@ -23,7 +23,11 @@
 
 		var words = [];
 
+		var storage = null;
+
 		var viewModel = {
+
+			hasLocalStorage: ko.observable(Modernizr.localstorage),
 
 			team1Score: ko.observable(0),
 
@@ -40,13 +44,18 @@
 			winner: ko.observable(null),
 
 			goStop: function() {
+				// don't let them restart on a paused word
+				if (viewModel.paused()) {
+					viewModel.word(fetchRandomWord());
+				}
 				viewModel.paused(!viewModel.paused());
 			},
 
 			nextWord: function() {
-				if (viewModel.timeLeft()>1) {
+				if (!viewModel.paused() && viewModel.timeLeft()>1) {
 					// >1 so we can't jump past 0
 					viewModel.timeLeft(viewModel.timeLeft()-2);
+					viewModel.word(fetchRandomWord());
 				}
 			},
 
@@ -102,6 +111,80 @@
 			});
 		};
 
+		var clearLocalStorage = function() {
+			if (storage != null) {
+				storage.removeAll();
+			}
+		};
+
+		var getRecentsFromStorage = function() {
+			console.log("getRecentsFromStorage...");
+			var key = 'recently-used',
+				val;
+			if (storage == null && viewModel.hasLocalStorage()) {
+				console.log("storage is null but we can get it");
+				storage = $.localStorage;
+			}
+			if (storage==null) {
+				console.log("storage is null and we don't support it");
+				return [];
+			} else if (!storage.isSet(key)) {
+				console.log("storage is available and we haven't initialized yet");
+				storage.set(key, []);
+			}
+			val = storage.get(key);
+			console.log("val...");
+			console.log(val);
+			return val;
+		};
+
+		var pushRecentsToLocalStorage = function(value) {
+			if (storage == null && viewModel.hasLocalStorage()) {
+				storage = $.localStorage;
+			}
+			if (storage != null) {
+				console.log("pushing to storage...");
+				storage.set('recently-used', value);
+			}
+		};
+
+		var pushToLocalStorage = function(key, value) {
+			if (storage == null && viewModel.hasLocalStorage()) {
+				storage = $.localStorage;
+			}
+			if (storage != null) {
+				storage.set(key, value);
+			}
+		};
+
+		var fetchRandomWord = function() {
+			var recentlyUsed = getRecentsFromStorage(),
+				candidateWord = null,
+				attempts = 0;
+			if (recentlyUsed.length>0) {
+				// make sure the new word hasn't been used
+				do {
+					candidateWord = words[Math.floor(Math.random()*words.length)];
+					attempts++;
+					console.log("attempt #" + attempts + ": " + candidateWord);
+				} while ($.inArray(candidateWord, recentlyUsed) && recentlyUsed.length>attempts);
+				// once 1/4th of list has been used, start purging old choices
+				if (recentlyUsed.length>words.length/4) {
+					console.log("before...");
+					console.log(recentlyUsed);
+					recentlyUsed.slice(1);
+				}
+				recentlyUsed.push(candidateWord);
+				pushRecentsToLocalStorage(recentlyUsed);
+				console.log("after...");
+				console.log(recentlyUsed);
+			} else {
+				candidateWord = words[Math.floor(Math.random()*words.length)];
+				pushRecentsToLocalStorage([candidateWord]);
+			}
+			return candidateWord;
+		};
+
 		var setupKnockout = function() {
 			/* hook up knockout to observables */
 			ko.applyBindings(viewModel);
@@ -149,6 +232,7 @@
 				}
 			});
 			viewModel.team1Score.subscribe(function(newValue) {
+				$.cookie('pm-team1-score', newValue, {path:'/'});
 				if (viewModel.winner()===null && newValue>=7) {
 					viewModel.winner(1);
 				} else if (viewModel.winner()==1 && newValue<7) {
@@ -156,6 +240,7 @@
 				} 
 			});
 			viewModel.team2Score.subscribe(function(newValue) {
+				$.cookie('pm-team2-score', newValue, {path:'/'});
 				if (viewModel.winner()===null && newValue>=7) {
 					viewModel.winner(2);
 				} else if (viewModel.winner()==2 && newValue<7) {
@@ -191,9 +276,21 @@
 				path: "assets/vendor/ion.sound-3.0.7/sounds/",
 				preload: true
 			});
+			if (viewModel.hasLocalStorage()) {
+				storage = $.localStorage;
+			}
 		};
 
 		phraseMe.viewModel = viewModel;
+
+		// pull team scores from cookies
+		if ($.cookie('pm-team1-score')!==undefined) {
+			viewModel.team1Score($.cookie('pm-team1-score'));
+		}
+		if ($.cookie('pm-team2-score')!==undefined) {
+			viewModel.team2Score($.cookie('pm-team2-score'));
+		}
+
 		init();
 
 		return phraseMe;
