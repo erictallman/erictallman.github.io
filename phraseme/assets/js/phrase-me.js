@@ -2,6 +2,13 @@
 
 	"use strict";
 
+	var DEBUG = false;
+
+	if (!DEBUG) {
+		console = console || {};
+		console.log = function(){};
+	}
+
 	$.phraseMe = function() {
 
 		var phraseMe = {
