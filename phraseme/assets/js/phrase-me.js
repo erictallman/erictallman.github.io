@@ -168,13 +168,13 @@
 			var recentlyUsed = getRecentsFromStorage(),
 				candidateWord = null,
 				attempts = 0;
-			if (recentlyUsed.length>0) {
-				// make sure the new word hasn't been used
+			if (recentlyUsed.length>0 && recentlyUsed.length!=words.length) {
+				// make sure the new word hasn't been used and we haven't run out of choices
 				do {
 					candidateWord = words[Math.floor(Math.random()*words.length)];
 					attempts++;
 					console.log("attempt #" + attempts + ": " + candidateWord);
-				} while ($.inArray(candidateWord, recentlyUsed) && recentlyUsed.length>attempts);
+				} while ($.inArray(candidateWord, recentlyUsed)!==-1 && recentlyUsed.length>attempts);
 				// once 1/4th of list has been used, start purging old choices
 				if (recentlyUsed.length>words.length/4) {
 					console.log("before...");
@@ -186,6 +186,7 @@
 				console.log("after...");
 				console.log(recentlyUsed);
 			} else {
+				// there were no recently used words or we ran out and need to do a hard reset
 				candidateWord = words[Math.floor(Math.random()*words.length)];
 				pushRecentsToLocalStorage([candidateWord]);
 			}

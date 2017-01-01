@@ -10,16 +10,16 @@ trouble
 no school
 prize
 turkey
-chew 
+chew
 explode
 america
 danger
-test 
+test
 red
 humidifier
 vehicle
 violin
-look 
+look
 south carolina
 chicken
 sun
@@ -42,7 +42,7 @@ drink
 hose
 ballpoint pen
 humble
-school 
+school
 circus
 brown
 happen
@@ -51,7 +51,7 @@ tusk
 macho
 zoo
 tarzan
-space 
+space
 moon
 james madison
 door
@@ -61,30 +61,29 @@ duck
 town
 flotsam
 pen
-transport
 happy
 cooking
 dollar
-balloon 
+balloon
 fair
 deck
-on 
+on
 brad pitt
 zoo
 boiled egg
 service
 white
 bus
-two 
-mr evert 
+two
+mr evert
 computer
 crust
 palace
-refrigerator 
+refrigerator
 mast
-migraine 
-spells 
- living room
+migraine
+spells
+living room
 harmony
 cage
 bottle
@@ -93,7 +92,7 @@ defect
 father
 granola bar
 orange
-fruit 
+fruit
 anne frank
 clothing
 franklin d. roosevelt
@@ -101,13 +100,13 @@ dangerous
 fat
 punk
 inalienable rights
-building 
+building
 concertmaster
 playing baseball
 mouth
 pocahontas
 mud
-wax 
+wax
 mine shaft
 leaf
 dora the explorer
@@ -125,7 +124,7 @@ dribble
 world
 pistol
 baby
-mix 
+mix
 drink
 winter squash
 unjust
@@ -150,7 +149,7 @@ feudalism
 chestnuts
 kitchen
 park
-desk 
+desk
 wooden
 robin williams
 what to do
@@ -203,7 +202,7 @@ apollo 13
 pen
 lamb
 famous
-yellow  
+yellow 
 tree
 people
 grateful
@@ -212,7 +211,7 @@ butt
 romeo
 hot
 sides
-ride 
+ride
 jellyfish
 client
 cartoons
@@ -228,12 +227,12 @@ gopher
 cat
 mess
 lungs
-man 
+man
 africa
 florida
 baby food
 six flags
-rent 
+rent
 billy the kid
 married
 aristocrat
@@ -246,27 +245,26 @@ read
 book
 mouth
 lawyer
-birthday 
+birthday
 diaper
 sea
 grape
 ski
 butterfly
-jacky chan 
-flag 
+jacky chan
+flag
 bike
 radio
 ernest hemingway
 wassail
 raking leaves
-transport
 novel
 restaurant
 cold
 secret
 crocodile
-disney 
-sister 
+disney
+sister
 popular
 film
 swordfish
@@ -275,10 +273,10 @@ pressure
 neck
 avalanche
 music
-scissors 
+scissors
 hamburgers
 silver
-chef 
+chef
 pharmacist
 the beatles
 park
@@ -288,7 +286,7 @@ tempura
 manger
 bruce willis
 aircraft
-school 
+school
 clark kent
 broken ankle
 alligator
@@ -296,7 +294,7 @@ colds
 underwear
 minutes
 wash
-pokemon 
+pokemon
 leaf
 soap
 otter
@@ -305,7 +303,7 @@ audience
 boy
 twist
 ice cream cone
-animal 
+animal
 skateboard
 protect
 standing ovation
@@ -321,7 +319,7 @@ turkey
 defend
 feed
 baseball
-sun 
+sun
 girlfriend
 blt
 bad
@@ -338,13 +336,13 @@ front porch
 party
 dent
 africa
-plant 
+plant
 seat
 gilligan
 tree
 hem
 spice rack
-airline 
+airline
 sea
 mountain
 easel
@@ -365,12 +363,12 @@ head
 describe
 pajamas
 new year
-spaghetti 
+spaghetti
 her
 go
 aisle
 sledding
-face 
+face
 ping pong
 dominoes
 eye
@@ -406,7 +404,7 @@ joint
 mooch
 wombat
 popsicle
-harry potter 
+harry potter
 wig
 secret lab
 voldermort
@@ -427,7 +425,6 @@ liberty
 it is big
 fly
 ghost
-transportation
 corn
 delay
 pigpen
@@ -445,7 +442,7 @@ metal
 cartoons
 outside
 public
-thorns 
+thorns
 bear
 haystack
 rapunzel
@@ -462,7 +459,7 @@ chain
 garden
 sad
 burns
-sandwich 
+sandwich
 nightmare
 bell
 leave
@@ -478,7 +475,7 @@ gather
 homework
 programmer
 windmill
-strawberry 
+strawberry
 potato
 bargain
 flip flops
@@ -489,12 +486,12 @@ fun
 feast
 2001: a space odyssey
 alien
-odor 
+odor
 japanese
-buy 
+buy
 chime
 cloth
-death 
+death
 francis scott key
 video camera
 elves
@@ -509,7 +506,7 @@ monday
 violin
 american
 memories
-bud 
+bud
 laundry detergent
 cone
 christmas spirit
@@ -523,7 +520,7 @@ seesaw
 computer
 shoelace
 food
-mature 
+mature
 broth
 music
 help
@@ -534,7 +531,7 @@ water
 jewel
 dorothy
 romantic
-nail 
+nail
 plymouth
 equal
 captain kirk
@@ -543,10 +540,10 @@ guinea pig
 hippo
 wax
 pillow
-paw 
+paw
 tom hanks
 body surfing at the beach
-aircraft 
+aircraft
 newsletter
 washington d.c.
 waste
@@ -554,7 +551,7 @@ travel
 clothes
 armadillo
 split
-jet li 
+jet li
 snow
 lawn mower
 lollipop
@@ -573,15 +570,15 @@ surf
 taboo
 warthog
 fast
-body part 
-flight 
+body part
+flight
 drive
 sunburn
 body
 engagement ring
 baby
 sentence
-song 
+song
 online
 sparklers
 court
@@ -591,22 +588,21 @@ boat
 purse
 pool party
 person
-sport
 jingle bells
 sparklers
 lace
 smart
-coyote 
+coyote
 garage
 achieve
 simmer
 superhero
-ship 
+ship
 sweater vest
 rake
 pie
-african american 
-sibling 
+african american
+sibling
 angry
 liberty and justice for all
 pig
@@ -630,11 +626,11 @@ standing ovation
 taco
 play
 harry potter
-nostril 
+nostril
 bird
 slam dunk
 zoo
-i am legend 
+i am legend
 wings
 fruit salad
 spooky
@@ -645,7 +641,7 @@ hard
 shorts
 rocky
 flag
-bright 
+bright
 barn
 fiddle
 zipper
@@ -667,9 +663,9 @@ person
 baking soda
 leap
 old spice
-cactus 
-color 
-cheese 
+cactus
+color
+cheese
 elizabeth bennett
 intern
 ronald regan
@@ -697,14 +693,14 @@ bonnet
 statue
 metal
 president
-beauty 
+beauty
 cupid
-clip 
+clip
 eraser
 toaster oven
 strum
 switzerland
-cut 
+cut
 parade
 fireman pole
 salt
@@ -728,9 +724,9 @@ weird al
 stingray
 watching clouds
 seesaw
-bathing suit 
+bathing suit
 car
-bear 
+bear
 scottland
 head
 summer olympics
@@ -764,7 +760,7 @@ cast
 ball drop
 oar
 shrek
-melody 
+melody
 out
 samuel morse
 red
@@ -774,18 +770,18 @@ camel
 harley
 jack black
 bunk bed
-goal 
+goal
 candy
 siren
-bacon 
-battery 
+bacon
+battery
 burn
 screw
 4 wheels
 tinting
 claus
 wizard
-mouse 
+mouse
 robot
 hyena
 american revolution
@@ -794,15 +790,15 @@ brad pitt
 sea
 cup
 skirt
-hill 
+hill
 rainbow
 crime
 rug
-umbrella 
+umbrella
 orange, black, and white
 books
 green
-outdoor 
+outdoor
 february
 laugh
 metal
@@ -812,7 +808,7 @@ clock
 eddie murphy
 venison
 lucky
-mailman 
+mailman
 robin hood
 new hampshire
 hollow
@@ -822,12 +818,12 @@ vegetable
 tent
 snowball
 sue
-shades 
+shades
 the kid
 sifter
 blanket
 grass
-stop 
+stop
 safe
 flower
 ice
@@ -845,8 +841,8 @@ garden
 purse
 book
 customer
-flag 
-office 
+flag
+office
 jackson pollock
 shoes
 happy
@@ -860,11 +856,10 @@ mr. darcy
 cheap
 ceiling fan
 eat
-fun 
+fun
 drive
 student
 kill
-sport 
 hang glider
 jar
 branch
@@ -881,17 +876,17 @@ donkey
 royal
 spring
 ligament
-rock 
+rock
 salute
 hungry
 wall crawler
 courage
-indonesia 
-wheat 
-birds 
+indonesia
+wheat
+birds
 coat
 chipmunk
-propeller 
+propeller
 day
 limbo
 bone
@@ -910,7 +905,7 @@ heart
 ivy
 doctor
 lightsaber
-fox 
+fox
 pump
 bed
 lucille ball
@@ -934,7 +929,7 @@ ice
 chess
 potato chips
 hunting
-brave 
+brave
 smoke
 broken
 plate
@@ -948,7 +943,7 @@ push
 alaska
 cardboard
 compare
-mustard 
+mustard
 facebook
 surf
 boyfriend
@@ -958,9 +953,9 @@ camera
 wedding
 wooden
 immediately
-house 
+house
 john williams
-fast food 
+fast food
 strange
 cruise
 skating rink
@@ -995,10 +990,10 @@ father time
 hug
 flue
 rock
-canvas 
+canvas
 everglades
 bunny
-fire extinguisher 
+fire extinguisher
 teeth
 fruit
 chinese
@@ -1017,7 +1012,7 @@ bowl
 brush
 ceiling fan
 lifestyle
-book 
+book
 quilt
 pink
 hair dryer
@@ -1028,13 +1023,13 @@ crowd
 ghost story
 kick
 fly
-google 
+google
 link
 trick or treat
-hair 
-cleans 
+hair
+cleans
 seventh inning stretch
-red 
+red
 feeling
 letter opener
 boardwalk
@@ -1047,21 +1042,21 @@ three-toed sloth
 tradition
 sushi
 observatory
-needle 
+needle
 bottle
 ladybug
-mouth 
+mouth
 play
 dress shirt
 witness
-tigger 
+tigger
 wedding
 breakfast
 swim
 dangerous
 roller coaster
 trip
-cooks 
+cooks
 charts
 taco bell
 artist
@@ -1084,14 +1079,14 @@ water balloon
 mean
 doe
 benjamin franklin
-hour 
+hour
 card
 roller blading
 raining cats and dogs
-fireman 
+fireman
 bed
-flour 
-moon 
+flour
+moon
 setting up a tent
 twang
 tree
@@ -1125,7 +1120,7 @@ glue stick
 chime
 cartoon
 socks
-rain 
+rain
 fly
 henry ford
 store
@@ -1134,9 +1129,9 @@ scary
 subject
 alligator
 god
-italian 
+italian
 candle
-animal 
+animal
 foreigner
 living room
 special
@@ -1149,14 +1144,14 @@ marinade
 lighthouse
 known
 champion
-submarine 
+submarine
 jack sparrow
 the wright brothers
 neighborhood
 robot
 grand canyon
 curtains
-pistol 
+pistol
 skeleton
 fire engine
 island
@@ -1181,7 +1176,7 @@ bill gates
 michael phelps
 red
 white
-empire state 
+empire state
 singer
 electricity
 plant
@@ -1190,26 +1185,26 @@ you
 photograph
 tuna
 goblin
-actor 
+actor
 yellow
 plant
 girl
-clark kent 
-lemonade 
+clark kent
+lemonade
 parties
 lawyer
 live
-hero 
+hero
 car
 speakers
-gas 
+gas
 fancy
 clothes
 table
 praise
-home 
+home
 tiger
-postman 
+postman
 carrie fisher
 yellow
 face
@@ -1217,11 +1212,11 @@ celebrate
 terror
 fabric
 bear
-sword 
+sword
 changing colors
 park
 basset hound
-office 
+office
 pork
 hair
 hydrogen
@@ -1236,7 +1231,7 @@ radish
 student
 top hat
 day
-cheese 
+cheese
 robin williams
 taboo
 dr. seuss
@@ -1263,7 +1258,7 @@ alp
 sandcastle
 dismantle
 mittens
-carpet 
+carpet
 money
 gingerbread house
 band
@@ -1272,9 +1267,9 @@ lucille ball
 notes
 short
 fly
-kitty 
+kitty
 dove
-meat 
+meat
 kevin bacon
 trash can
 pajamas
@@ -1293,11 +1288,11 @@ toothbrush
 snack
 create
 down
-chips 
+chips
 parade floats
 nativity
-shock 
-captain 
+shock
+captain
 pizza
 bathroom scale
 north carolina
@@ -1318,9 +1313,9 @@ jacket
 slip ‘n’ slide
 cloud
 dance/dancing
-gas 
+gas
 thomas jefferson
-teacher 
+teacher
 washroom
 swim
 jacket
@@ -1354,7 +1349,7 @@ spider man
 knot
 cold
 antlers
-rain 
+rain
 pumpkin
 holiday
 grill
@@ -1372,7 +1367,7 @@ famous
 bright
 chocolate
 hope
-umbrella 
+umbrella
 picnic
 horses
 rainwater
@@ -1406,11 +1401,11 @@ puppet
 key
 discuss
 ladybug
-soft 
+soft
 food
 plank
 oar
-mad 
+mad
 buzz lightyear
 i'm with stupid
 bird
@@ -1421,13 +1416,13 @@ wings
 shoe
 animal
 gem
-time 
+time
 grape
 internet
 history
 indiana jones
 dog
-easy 
+easy
 the little mermaid
 bathroom
 pillow
@@ -1466,7 +1461,7 @@ pony
 feeling
 ergonomic
 the princess diaries
-red 
+red
 mime
 space
 arms
@@ -1474,22 +1469,22 @@ sleeves
 window
 outside
 sleep
-red 
-lavender 
+red
+lavender
 orbit
 bermuda
 future
-small 
+small
 banister
 fun
 chalk
 jump
 football
 chlorine
-liquid 
+liquid
 metal
 rejoice
-wrist 
+wrist
 jamaica
 space
 stomach
@@ -1517,7 +1512,7 @@ grandma
 mouse
 inigo montoya
 hear
-post office 
+post office
 exercise
 cloak
 feet
@@ -1547,7 +1542,7 @@ wedding
 disposable
 airplane
 pillow
-dessert 
+dessert
 cinema
 stand up for
 china
@@ -1560,11 +1555,11 @@ money
 sweater vest
 swordfish
 stiff
-comfortable 
+comfortable
 weasel
 communist
 muffin tin
-evil 
+evil
 comfy
 eli whitney
 riding in a chairlift
@@ -1581,10 +1576,10 @@ china
 clothes
 camping
 famous
-nose 
+nose
 country
 furniture
-guitar 
+guitar
 rollerblades
 regis philbin
 symbol
@@ -1595,11 +1590,11 @@ feeding the ducks
 jammin'
 georgia
 mirror
- normal 
+normal
 mine car
 safe
 trees
-daisy 
+daisy
 rudolph
 mowing a lawn
 lyrics
@@ -1610,24 +1605,24 @@ curtain
 heart
 treaty of paris
 expect
-information 
+information
 international
 say 'cheese'
 thief
 snowflake
-blow 
+blow
 sneeze
 streamers
 chicken leg
 large
 home movies
 bedbug
-flavors 
+flavors
 words
 salmon
 wedding
 yoga teacher
-paper clip 
+paper clip
 yankee doodle
 throw a fit
 vehicle
@@ -1649,7 +1644,7 @@ fruit
 model
 sleep
 roast
-dove 
+dove
 whale
 double
 dinner
@@ -1657,9 +1652,9 @@ coral reef
 cold
 dragon
 swimming with dolphins
-smell 
+smell
 weather
-slip 
+slip
 george washington
 finger
 corn on the cob
@@ -1675,7 +1670,7 @@ inquisition
 spongebob
 time machine
 row
-meow 
+meow
 frankenstein
 old
 black beans
@@ -1706,10 +1701,10 @@ sheep dog
 bicycle
 road trip
 x-men
-music 
+music
 ebenezer scrooge
 frying pan
-electricity 
+electricity
 goody bag
 picnic
 wax
@@ -1743,8 +1738,8 @@ necktie
 t-shirt
 crunching leaves
 skiing
-watts 
-stick 
+watts
+stick
 balloon
 boots
 sheep dog
@@ -1752,7 +1747,7 @@ skeleton
 phobia
 shower
 dvds
-song 
+song
 car
 dent
 soft
@@ -1780,7 +1775,7 @@ africa
 dot
 famous
 queen
-subject 
+subject
 wax
 the importance of being
 cage
@@ -1802,7 +1797,7 @@ frog
 crawl
 pencil
 mitten
-lunch 
+lunch
 sweet
 neil diamond
 honey
@@ -1828,7 +1823,7 @@ doghouse
 ball
 go
 cold feet
-milk 
+milk
 channel
 wish
 straw
@@ -1839,7 +1834,7 @@ beach
 condo
 castle
 maryland
-hydroplane 
+hydroplane
 united
 cuckoo clock
 drink
@@ -1855,13 +1850,13 @@ fiddle
 beautiful
 cowardly lion
 fly
-roll 
+roll
 building a campfire
-liquid 
+liquid
 eat
 cuticle
 yams
-sofa 
+sofa
 kevin bacon
 bowtie
 bull
@@ -1913,7 +1908,7 @@ bleach
 pillow
 tool
 honey
-help 
+help
 video camera
 kill
 the sandlot
@@ -1923,7 +1918,7 @@ school
 saddle
 plane ticket
 paul mccartney
-will smith 
+will smith
 indonesia
 travel
 shoes
@@ -1947,7 +1942,7 @@ rib
 gate
 yolk
 dye
-sailor 
+sailor
 holiday
 people
 exit
@@ -1962,13 +1957,13 @@ somebody
 picture
 orchestra
 net
-fast food 
+fast food
 weapon
-fly 
+fly
 square
 lollipop
 yellow
-anime 
+anime
 curtain
 salty
 scuba diving
@@ -1996,14 +1991,14 @@ all-you-can-eat buffet
 corn
 art
 lazy river
-kent 
-climb 
+kent
+climb
 blow
 mouse
 car
 paddle
 search
-birthday 
+birthday
 slow
 truck
 suffering
@@ -2017,13 +2012,13 @@ basketball
 grandfather
 playing soccer
 yellow
-moon 
+moon
 christian
 bread
 blossoms
 hip hop
 arm
-headache 
+headache
 barrel
 batman
 train
@@ -2047,8 +2042,8 @@ scarves
 watch
 zest
 time
-noodles 
-twinkle 
+noodles
+twinkle
 platypus
 banana peel
 cookbook
@@ -2066,8 +2061,8 @@ elderly
 national park
 sunsets
 haunted house
-power 
-grass 
+power
+grass
 dangerous
 groundhog day
 deodorant
@@ -2082,18 +2077,18 @@ lawnmower
 michelangelo
 whiplash
 school
-punishment 
+punishment
 alice (in wonderland)
-answer 
-post card 
+answer
+post card
 bark
-red 
+red
 shadow
 mailman
 jet lag
 door
-train operator 
-dry 
+train operator
+dry
 kneel
 iron
 vegetable
@@ -2106,13 +2101,12 @@ caught red-handed
 furious
 dinner
 log
-definitions 
+definitions
 king george
 snowflake
 wet
 school
-transport
-round 
+round
 food
 elton john
 distance
@@ -2126,7 +2120,7 @@ james madison
 house wife
 lamp
 leak
-hydrate 
+hydrate
 scary movies
 jewels
 rut
@@ -2138,14 +2132,14 @@ warm
 albert einstein
 february
 zamboni
-girl 
+girl
 cell phone charger
-dance 
+dance
 food drives
 head
 bike
 cry
-biology 
+biology
 milk
 cap
 calm
@@ -2166,11 +2160,10 @@ fire
 monster mash
 cigarette
 tulips
-sport
 tony hawk
 poems
 blue
-fly 
+fly
 america
 water
 clock
@@ -2195,7 +2188,7 @@ shrink ray
 subject
 school
 china
-paper 
+paper
 escalator
 dry
 slow
@@ -2206,25 +2199,24 @@ outer space
 race
 shoes
 bookend
-soft drink 
+soft drink
 swim
 gypsy
 man
-sense 
+sense
 challenge
 hut
 couples
 tuba
 bud
-rain 
+rain
 clouds and sky
 alien
 georgia o'keeffe
 bug spray
-rain 
+rain
 money
 grapes
-sports
 driver
 drought
 potato chips
@@ -2233,20 +2225,20 @@ crawl
 admire
 luggage
 page
-couch 
+couch
 flower
 church
-ken 
-grass 
+ken
+grass
 brush
 sunflower
-mangle 
+mangle
 crypt
 children
-water 
+water
 shel silverstein
 gun
-letter 
+letter
 lights
 ironing a shirt
 news
@@ -2294,9 +2286,9 @@ bedroom
 martin sheen
 barbie
 blender
-clock 
+clock
 calculator
-mailbox 
+mailbox
 white
 groom
 baggage
@@ -2304,7 +2296,7 @@ cover
 north pole
 children
 school
-eggs 
+eggs
 toilet paper
 bob marley
 money
@@ -2319,7 +2311,7 @@ dance
 video
 dance
 anthem
-flame 
+flame
 tears
 charles darwin
 aunt
@@ -2328,7 +2320,7 @@ pair
 horror
 airplane
 stroke
-does 
+does
 music
 peach
 ocean
@@ -2353,8 +2345,8 @@ medicine
 turkey
 porch swing
 mature
-song 
-write 
+song
+write
 loyalty
 live
 america
@@ -2370,14 +2362,14 @@ television
 envy
 chicken
 ditch
-helps 
+helps
 jog
 fly
 inside
 robin
 shower curtain
-pig 
-fish 
+pig
+fish
 heart
 tokyo
 c. s. lewis
@@ -2387,14 +2379,13 @@ teeth
 andy warhol
 talk about
 weather
-stir 
+stir
 grass
 sad
 chair
 floats
 softball
-green 
-bones
+green
 santa's workshop
 park
 smog
@@ -2410,9 +2401,8 @@ eat
 arm
 make a mountain out of a molehill
 transparent
- 
-football 
-airport 
+football
+airport
 care
 deep-fry
 snag
@@ -2424,14 +2414,14 @@ fingers
 sea turtle
 chestnut
 bath
-purple 
+purple
 climb
 free
 performing at a rock concert
 forehead
 law
 intelligent
-flavored 
+flavored
 baseboards
 socrates
 fruit
@@ -2460,9 +2450,9 @@ spain
 squeaky wheel gets the grease
 accomplish
 snow cone
-home 
+home
 life, liberty, and the pursuit of happiness
-doll 
+doll
 pasta salad
 time off
 jimmy stewart
@@ -2470,8 +2460,8 @@ coat
 sea
 ireland
 walking with crutches
-floor 
-voice 
+floor
+voice
 safety
 winnie the pooh
 hops
@@ -2479,18 +2469,18 @@ snowman
 new
 burger king
 moth
-power 
+power
 baby
 gratitude
 hospital
-meaning 
+meaning
 mascot
 guide
 freight train
 gifts
 traditions
 watering can
-sky 
+sky
 legally blonde
 in
 hugs
@@ -2498,11 +2488,11 @@ clap
 campsite
 small
 country
-feet 
+feet
 disneyland
 house
 chair
-listen 
+listen
 nurse
 blowfish
 smooth
@@ -2514,7 +2504,7 @@ trucks
 couple
 bird nest
 plaid
-budget 
+budget
 husband
 give
 bag
@@ -2543,7 +2533,7 @@ kitchen knife set
 hockey
 witch
 dance
-net 
+net
 white
 fruit
 jealousy
@@ -2553,7 +2543,7 @@ soup
 modern
 full
 airport
-boil 
+boil
 travel
 tony hawk
 wheels
@@ -2561,7 +2551,7 @@ dredge
 sunburn
 party
 rolly polly
-hand phone 
+hand phone
 ghost stories
 goblin
 hang-gliding
@@ -2583,17 +2573,16 @@ the parent trap
 times square
 beautiful
 move
-sports
 wasp
-hola 
+hola
 snapshot
 root for the home team
 athlete
 letter opener
-kitten 
+kitten
 small
 music instrument
-hole 
+hole
 straw
 head
 crafts
@@ -2610,34 +2599,34 @@ cinnamon rolls
 fast
 horse
 neil diamond
-wick 
+wick
 murder
 every day
-mud 
+mud
 stars and stripes
 winnie the pooh
 uv
 fireworks
 see
-spray 
+spray
 bed
 magazine
 fire
 scissors
 beanstalk
-filing 
+filing
 humps
 festival
 mark twain
 neighbor
 point
-sandwich 
+sandwich
 mary poppins
 money
 blue
 yo-yo
 french fries
-powder 
+powder
 boarding pass
 toddler
 banister
@@ -2647,7 +2636,7 @@ flag
 neighbor
 key lime pie
 confetti
-nose 
+nose
 person
 boogie board
 cameron diaz
@@ -2666,15 +2655,15 @@ ice cream cone
 spiderman
 michelangelo
 babe ruth
-happy b-day 
+happy b-day
 squint
-drink 
+drink
 shakespeare
 drink
 out
 night
 spoon
-house 
+house
 frankenstein
 fork
 invest
@@ -2698,7 +2687,7 @@ snowball fight
 popcorn
 town square
 tachometer
-flames 
+flames
 drums
 relax
 legs
@@ -2716,13 +2705,13 @@ spider web
 brown
 bench
 going on an african safari
-lemon lime 
+lemon lime
 important
 december
 igor
 way
 clean
-milk 
+milk
 jam
 stairs
 garden hose
@@ -2732,7 +2721,7 @@ kick the bucket
 power
 lawyer
 jump
-bubblegum 
+bubblegum
 green
 chinese
 no sleep
@@ -2757,10 +2746,10 @@ cake
 doll
 old
 barber
-eye patch 
+eye patch
 roundabout
 lollipop
-air 
+air
 jump the gun
 stripe
 shrink ray
@@ -2769,7 +2758,7 @@ melts
 tent
 j.k. rowling
 keys
-internet 
+internet
 blimp
 ugly
 seahorse
@@ -2786,7 +2775,7 @@ pillow
 walter cronkite
 violent
 baby
-smell 
+smell
 harrison ford
 him
 delaware
@@ -2810,7 +2799,7 @@ trick-or-treating
 temple
 theodore roosevelt
 book
-tree 
+tree
 commercial
 dishes
 cat
@@ -2842,9 +2831,9 @@ singer
 car
 snake
 snowflake
-ella ella 
+ella ella
 computer
-martial arts 
+martial arts
 sip
 bill gates
 knife
@@ -2864,12 +2853,12 @@ spots
 jack-o-lantern
 glasses
 beaver
-mario 
+mario
 amanda bynes
 wood
 nervous
 highway
-butter 
+butter
 costume
 smart
 termination
@@ -2886,20 +2875,20 @@ boast
 puppy
 singer
 jim henson
-light bulb 
+light bulb
 betsy ross
 application
 world
 opaque
-mickey mouse 
-pain 
+mickey mouse
+pain
 feeling
 school
 bright
 cell phone charger
 hop
 block party
-piglet 
+piglet
 gathering eggs from a hen house
 movies
 snow
@@ -2923,7 +2912,7 @@ forest
 setting the table
 maine
 basil
-traffic light 
+traffic light
 broom
 sirius black
 bill gates
@@ -2932,12 +2921,12 @@ flight
 unfair
 bed
 mother teresa
-yellow 
-aspirin 
+yellow
+aspirin
 spider web
 dr. seuss
 toasts
-green tea 
+green tea
 sing
 hair
 eat
@@ -2950,8 +2939,8 @@ hear
 floats
 tortoise
 stack
-pirate 
-tofu 
+pirate
+tofu
 fraidey cat
 leaves
 sleeping bag
@@ -2959,13 +2948,13 @@ hippopotamus
 cinderella
 wildflowers
 baby new year
-burn 
+burn
 peter parker
 ice cream
 england
-party 
+party
 bed
-cucumber 
+cucumber
 shoes
 old spice
 card
@@ -2982,15 +2971,15 @@ water
 inn
 twitterpated
 piano
-wave 
-noah 
+wave
+noah
 water
 enter
 letter opener
 duck
 fishing pole
 blink
-cartoon 
+cartoon
 water
 sweet corn
 john williams
@@ -3021,17 +3010,17 @@ pigpen
 skip
 angry
 snail
-charger 
+charger
 professor
 jig
-china 
+china
 dirty
 june bugs
 chair
 river
 long
 green bean casserole
-ketchup 
+ketchup
 bicycle
 clockwork
 koala
@@ -3042,10 +3031,10 @@ jumping
 mailbox
 love
 dairy
-red bull 
+red bull
 justify
 oppose
-cook 
+cook
 fish
 jar
 summer
@@ -3053,13 +3042,13 @@ slimy
 flashlight
 sting
 carry
-insane 
+insane
 ladder rung
 charlie brown
 email
 connect
 cd
-do 
+do
 chin
 newspaper
 photo
@@ -3080,12 +3069,12 @@ witch
 liquid
 gila
 silverware
-food 
+food
 george lucas
 lawn mower
 theater
 fiddle
-light switch 
+light switch
 magic
 dead
 potato
@@ -3094,13 +3083,12 @@ turtle
 plank
 preacher
 tv
-transport
 sharp
 cow
 dolphin
 murder
-basket 
-thirsty 
+basket
+thirsty
 hail
 summer
 rose
@@ -3126,14 +3114,14 @@ old
 crib
 now
 rib
-bird 
+bird
 purse
 toothbrush
 lamp
 soft
 naughty
 africa
-electricity 
+electricity
 climbing mount everest
 criticize
 jellybeans
@@ -3141,11 +3129,10 @@ exercise
 me
 king
 milk
-water 
+water
 stove
 giraffe
 cooking
-sport
 anxiety
 stick
 galileo
@@ -3179,24 +3166,24 @@ talk
 trap
 suitcase
 funny
-wolf 
+wolf
 dentist
 stocking
 murder
 feathers
-weather 
+weather
 fishing
 boa constrictor
 play
 ipod
 frost
-wet 
+wet
 bank holiday
 noodles
 continent
 belly
 trash can
-strong 
+strong
 salvador dali
 nightmare
 darkness
@@ -3208,7 +3195,7 @@ diver
 banana
 color
 river
-white 
+white
 flute
 stoplight
 public
@@ -3247,12 +3234,12 @@ toad
 constitution
 postman
 beautiful
-work 
+work
 horns
 spider
 develop
 grapes
-santa claus 
+santa claus
 eating
 saddle
 tomato
@@ -3268,12 +3255,12 @@ the wizard of oz
 texas
 family reunion
 chicken pot pie
-ocean 
+ocean
 winter
-superman 
+superman
 watermelon
 kfc
-hard 
+hard
 sean connery
 friendly
 flight
@@ -3293,14 +3280,14 @@ rest
 woman
 accessories
 bridge
-color 
+color
 scoundrel
 george washington
 railroad
 jewelry
 red
 wolf
-garden 
+garden
 asking for an autograph
 bird
 earthquake
@@ -3316,7 +3303,7 @@ sleep
 movie
 power button
 dad
-ball 
+ball
 the incredibles
 sweet
 beach
@@ -3326,7 +3313,7 @@ feeling
 fly
 isaac newton
 scared
-soft 
+soft
 movie
 stand
 cereal
@@ -3334,7 +3321,7 @@ picking apples from a tree
 eli whitney
 cape
 slam dunk
-bread 
+bread
 hungry
 davy crockett
 movies
@@ -3344,8 +3331,8 @@ harry houdini
 spider man
 shopping
 sean connery
-walk 
-sun 
+walk
+sun
 hygiene
 insect
 spy
@@ -3354,14 +3341,14 @@ playing chess
 warm
 crown
 gotham
-fly 
+fly
 seals
 song
 dragon
 toes
 gifts
 comb
-fried 
+fried
 chemistry
 education
 audrey hepburn
@@ -3373,7 +3360,7 @@ rome
 soda
 safe
 college
-big mac 
+big mac
 have
 ipod
 teeth
@@ -3383,17 +3370,17 @@ pelican
 decorating for a party
 summer
 football
-work 
+work
 fasten
 traffic
 muscle
-kitchen 
+kitchen
 wooden spoon
 bathroom scale
 show
 eraser
 argue
-burger 
+burger
 gold
 bath
 joy
@@ -3409,7 +3396,7 @@ san francisco
 aladdin
 glove
 mighty joe young
-bread 
+bread
 backpack
 buy
 puppet
@@ -3465,15 +3452,15 @@ smile
 à la carte
 erase
 use
-cold 
+cold
 american
 dakota fanning
 sofa
-yellow 
+yellow
 cot
 seagull
 family reunions
- teddy
+teddy
 airline
 exit
 tall
@@ -3485,17 +3472,17 @@ beehive
 music
 hot dog
 scar tissue
-belt 
+belt
 black and white
 spine
-boat 
+boat
 apple pie
 day
 dry
 shoe
 crib
 ring
-goodbye 
+goodbye
 fang
 songs
 las vegas
@@ -3507,7 +3494,7 @@ driver
 country
 ring
 church
-dog 
+dog
 christmas
 action
 bedspread
@@ -3522,8 +3509,8 @@ boy
 paste
 sunny
 doghouse
-instrument 
-brush 
+instrument
+brush
 whistle
 beef jerky
 clock
@@ -3533,14 +3520,14 @@ making a pizza
 darth vader
 special
 french
-love 
+love
 skull
-melt 
+melt
 broadway
 blur
 hide-and-seek
 purse
-sun glasses 
+sun glasses
 infant
 sequins
 guide
@@ -3556,7 +3543,7 @@ scissors
 flower
 cat
 speeches
-men in black 
+men in black
 thriller
 books
 round
@@ -3584,8 +3571,8 @@ pillow
 body
 bell pepper
 skiing
-donald 
-dictionary 
+donald
+dictionary
 warm
 discuss
 bowtie
@@ -3600,10 +3587,10 @@ fall
 every day
 women
 drain
-kung-fu 
+kung-fu
 screen
 game
-fly 
+fly
 kite
 betsy ross
 retail
@@ -3637,7 +3624,7 @@ hold your horses
 refrigerator
 computer
 bicycle
-cherry 
+cherry
 elephant
 happy
 female
@@ -3647,8 +3634,8 @@ scooby doo
 princess
 romantic
 protestant
-energy drink 
-wizard 
+energy drink
+wizard
 population
 swimming suit
 county fair
@@ -3657,7 +3644,7 @@ mary poppins
 the kitchen sink
 bill and ted's excellent adventure
 smashed
-book 
+book
 leonardo da vinci
 barbeque
 hero
@@ -3665,9 +3652,9 @@ star spangled banner
 lawn mower
 death
 stout
-difficult 
+difficult
 scales
-scream 
+scream
 blocks
 scare
 bird watching
@@ -3694,9 +3681,8 @@ cello
 fireworks
 barack obama
 canadian bacon
-transport
 shirt
-play 
+play
 promise
 dumb
 aged
@@ -3712,25 +3698,25 @@ lasagna
 beyonce
 peck
 stairs
-kryptonite 
+kryptonite
 europe
 chicken
 music
 captain
-power 
+power
 opening birthday presents
 earnest
 billy the kid
 cramp
-tennis 
+tennis
 robot
 time
 candy
 harvest
 bird
-hi 
+hi
 pants
-pasta 
+pasta
 taxes
 lives in india
 beethoven
@@ -3748,12 +3734,12 @@ business trip
 book
 law
 noun
-soccer 
+soccer
 pear
 yo-yo
 shoot
 rich
-metal 
+metal
 ordering food at a restaurant
 teacher
 round
@@ -3766,13 +3752,13 @@ look
 marvel superheroes
 appetizer
 zombie
-predator 
+predator
 soft
 rose
 sacajawea
-post office 
+post office
 rubbish
-vegetable 
+vegetable
 blood
 ipod
 january
@@ -3784,16 +3770,16 @@ vegetarian
 face
 hurdle
 charles dickens
-drinks 
+drinks
 cup
 white
 food
-perfume 
+perfume
 bahamas
 food
 hula hoop
-material 
-cartoon 
+material
+cartoon
 model
 komodo dragon
 loud
@@ -3816,26 +3802,26 @@ chick
 drum
 teenager
 house
-dangerous 
+dangerous
 landfill
-movie 
+movie
 rush
 close, but no cigar
 run
-green 
+green
 peanut
 aquarium
 socks
 swing
 battery
 dentist
-stick 
+stick
 statue of liberty
 candle
 present
 play
 whatever
-party 
+party
 chair
 picture
 salvador dali
@@ -3853,13 +3839,13 @@ egg roll
 click
 baby
 flower
-amuse 
+amuse
 alligator
 person
 hamburgers
 screen
 dust bunny
-ball 
+ball
 basketball
 jelly
 meatballs
@@ -3872,17 +3858,17 @@ back to the future
 hamster
 america
 paperback
-blue 
+blue
 bank
 coconut
 red nose
 big
-paste 
+paste
 river
 soft
 length
 make-up
-school 
+school
 newspaper
 s'mores
 end
@@ -3894,7 +3880,7 @@ spring
 tree
 flower
 owl
-white 
+white
 thing
 dance
 quack
@@ -3903,14 +3889,14 @@ level
 animal
 dragon
 michael jordan
-study 
+study
 flu
 are we there yet?
-paper 
+paper
 shelf
 bill clinton
 wrench
-racquet 
+racquet
 potato
 laundry
 grace kelly
@@ -3945,7 +3931,7 @@ save
 crow's nest
 frog
 midsummer
-apartment 
+apartment
 toucan
 yardstick
 midnight
@@ -3964,11 +3950,11 @@ meal
 step-daughter
 hippo
 invisible
-water 
+water
 helium
 leonardo da vinci
 ring
-red white 
+red white
 clever
 wind
 tv
@@ -4013,10 +3999,10 @@ park
 insect
 shut
 username
-stationery 
-american 
+stationery
+american
 seat belts
-skyscraper 
+skyscraper
 twelve chimes
 watermelon
 sheep
@@ -4027,23 +4013,23 @@ bonnet
 christmas eve
 heat
 dock
-star 
+star
 thunder
 hive
 summer reading
 snow
-picnic 
-laundry 
+picnic
+laundry
 photo
 snow
 society
 poach
 leaf
-sea 
+sea
 candlesticks
 red
 cold
-fix 
+fix
 dress shirt
 tomato
 green leaves
@@ -4053,9 +4039,9 @@ fast
 groundhog
 spooks
 avocado
-water 
+water
 music player
-deodorant 
+deodorant
 black
 god bless america
 japan
@@ -4071,14 +4057,14 @@ zen
 red
 cranberry sauce
 blue
-kitchen 
+kitchen
 ear
 vow
-hippie 
+hippie
 bank
 colors
 ocean
-dark 
+dark
 hive
 1776
 you
@@ -4101,8 +4087,8 @@ queen
 look
 popsicle
 eiffel
-saucepan 
-wood 
+saucepan
+wood
 block party
 outside
 cd
@@ -4117,8 +4103,8 @@ marriage
 thunderstorms
 librarian
 telephone
-bounce 
-eat 
+bounce
+eat
 library
 web
 pick up
@@ -4129,18 +4115,18 @@ shirt
 jellyfish
 feeling
 lance armstrong
-flying 
+flying
 circus
 s’mores
 pop tart
 beat
 ring
 broken
-pool 
+pool
 snowball
 landscape
 fruit
-crazy 
+crazy
 flavor
 organ
 young
@@ -4153,7 +4139,7 @@ underwear
 claude monet
 flame
 seashell
-airport 
+airport
 jog
 ants
 door
@@ -4169,7 +4155,7 @@ carrot
 rat
 spine
 poodle
-furry 
+furry
 moose
 cougar
 suntan
@@ -4184,7 +4170,7 @@ place
 mattress
 invitation
 skirt
-orange 
+orange
 waist
 long
 harry potter
@@ -4212,7 +4198,7 @@ penguin
 rupiah
 fly
 street
-study 
+study
 dr. emmett brown
 bread
 hand lotion
@@ -4225,7 +4211,7 @@ oven mitt
 frown
 drug
 south
-oil 
+oil
 athens
 playing four square
 tent
@@ -4278,7 +4264,7 @@ human
 pomp
 barbie
 blonde
-motel 
+motel
 light bulb
 not
 thomas jefferson
@@ -4294,7 +4280,7 @@ lobster
 wedding
 washing machine
 up
-alcohol 
+alcohol
 emergency
 mad scientist
 sweet potatoes
@@ -4314,7 +4300,7 @@ picture
 buddy
 coffee
 explore
-greetings 
+greetings
 milk
 benjamin franklin
 slang
@@ -4330,7 +4316,7 @@ rain
 canadian goose
 foot
 radio
-living 
+living
 asian
 screen
 director
@@ -4346,7 +4332,7 @@ hiking
 summer
 judge
 make up
-water 
+water
 charles darwin
 loveseat
 cell phone
@@ -4374,7 +4360,7 @@ marker
 dutch oven
 butterfly
 doors
-ice 
+ice
 batteries
 lights
 deer
@@ -4390,7 +4376,7 @@ legs
 bagel
 hate
 turkey bowl
-edison 
+edison
 shopping cart
 maple syrup
 shepherds
@@ -4403,13 +4389,13 @@ red
 having a food fight
 carrot
 city
-golf 
+golf
 smile
-hot 
+hot
 bullet
 give
 walrus
-music 
+music
 wrapping paper
 mark twain
 shark
@@ -4426,7 +4412,7 @@ sand
 patriotism
 football
 engine
-plastic 
+plastic
 bird
 vanilla sky
 crumb
@@ -4441,7 +4427,7 @@ pleasure
 take me out to the ballgame
 solid
 daughter
-boat 
+boat
 ski goggles
 divorce
 ipad
@@ -4454,8 +4440,8 @@ camera
 silver
 rain
 house
-lightning 
-note 
+lightning
+note
 donkey
 skate
 banana split
@@ -4481,10 +4467,10 @@ knot
 manual
 broom
 drink
-relative 
+relative
 street
 glasses
-smoothie 
+smoothie
 citrus
 gills
 umbrella
@@ -4501,14 +4487,14 @@ states
 food
 scuba diving
 birthday
-small 
+small
 sweep
-browse 
+browse
 coldplay
 rage
 santa's sleigh
 round
-sky 
+sky
 fox
 sprinkler
 humble
@@ -4523,12 +4509,12 @@ internet
 snowflake
 police
 hot
-stick 
+stick
 precipitation
 crawl
 brown or black
-honey 
-green 
+honey
+green
 democracy
 superman
 young
@@ -4544,24 +4530,24 @@ spiderman
 ironing board
 snow
 pancakes
-rose 
+rose
 dance
 ceiling fan
 hay ride
 elephants
-bread 
+bread
 mountain
 table
 gumball
 watching tv
 pocahontas
 ironic
-hot air balloon 
-glasses 
+hot air balloon
+glasses
 wide
 crab
 cow
-weather 
+weather
 century
 gila monster
 hailing a taxi
@@ -4594,7 +4580,7 @@ big cat
 wax
 rocket
 niece
-lease 
+lease
 space-time continuum
 bill cosby
 mushroom
@@ -4605,19 +4591,19 @@ printer paper
 seeds
 monkey
 bed
-table 
+table
 rag
 ring
 tv
-vegetable 
-beard 
+vegetable
+beard
 universal studios
 sick
-bus terminal 
+bus terminal
 busy
 gym
 red
-maid 
+maid
 elbow
 the grinch
 jump rope
@@ -4626,10 +4612,10 @@ sorting laundry
 stars
 protection
 clothes
-watch 
+watch
 yellow
-winnie the pooh 
-class 
+winnie the pooh
+class
 wallet
 fat
 excited
@@ -4644,8 +4630,8 @@ england
 shower curtain
 snack food
 sand
-computer 
-alleys 
+computer
+alleys
 stephanie meyer
 ring
 cog
@@ -4654,12 +4640,12 @@ duckling
 cheese
 catch
 packing
-hose 
+hose
 sal ad
 pledge of allegiance
-hot dog 
+hot dog
 mash
-under 
+under
 apple
 motor
 dust
@@ -4684,7 +4670,7 @@ my country 'tis of thee
 wc
 star
 body
-saves 
+saves
 balloon
 school
 circle
@@ -4724,7 +4710,7 @@ chick-fil-a
 chalk
 ball
 water park
-iced 
+iced
 doll
 coleslaw
 wedding cake
@@ -4732,7 +4718,7 @@ beautiful
 head over heels
 pixel
 buffalo
-gift 
+gift
 worm
 exercise
 wind
@@ -4774,7 +4760,6 @@ zebra
 party
 internet
 stowaway
-transport
 shark
 bubble
 egg timer
@@ -4787,7 +4772,7 @@ flashlight
 scared
 fireworks
 you
-plane 
+plane
 glide
 branch
 michael jackson
@@ -4810,19 +4795,19 @@ holiday
 elevator
 freedom
 london
-farm animal 
+farm animal
 circus
 eyeglasses
 green with envy
 dick van dyke
-learn 
+learn
 goodbye
 willy wonka and the
 slow
 swimming pool
 pinch
 wick
-cat 
+cat
 knee
 photographer
 job
@@ -4834,25 +4819,25 @@ rabbit
 e.t.
 liberty bell
 myth
-ugly 
+ugly
 expo
 paper
-drink 
+drink
 lick
 draw
 dollar
-super 
+super
 cinema
 organize
 listen
 crepe
 late nights
 iron
-people 
+people
 ruin
 long for
 pie
-food 
+food
 rising sun
 tablecloth
 cuff
@@ -4872,11 +4857,11 @@ fix
 scarf
 clown
 bug
-hot 
+hot
 food
 yellow
 storm
-housing 
+housing
 wall
 baseboards
 operating a jackhammer
@@ -4887,15 +4872,15 @@ bee
 cog
 headache
 celebration
-flower 
+flower
 body
 mp3
 mitten
 animal
 snowflake
-cartoon 
+cartoon
 towel
-stamp 
+stamp
 princess
 worm
 dangdut
@@ -4912,20 +4897,20 @@ figment
 water
 playground
 advance
-long 
+long
 earache
 dove
 isaac newton
 werewolf
 very dangerous!
-ball 
+ball
 read
-staple 
+staple
 woman
-computer 
+computer
 astronaut
 memory
-painting 
+painting
 helper
 bus
 sweets
@@ -4942,7 +4927,6 @@ luke skywalker
 light
 animal
 river
-sport
 toaster
 bells
 wear
@@ -4958,7 +4942,7 @@ morning
 lives in china
 pendulum
 gallop
-toe 
+toe
 mute
 study
 baking bread
@@ -4974,9 +4958,9 @@ scooby doo
 mahatma gandhi
 alligator
 dog
-meatballs 
+meatballs
 think
-surprise 
+surprise
 atm
 taste
 duckling
@@ -4986,7 +4970,7 @@ artist
 band
 emotion
 women
-eye 
+eye
 snack
 laundry
 skirt
@@ -5003,7 +4987,7 @@ ice cream
 photo frame
 cold
 calf
-electric 
+electric
 fair
 bruce willis
 nan she shan
@@ -5016,14 +5000,14 @@ sleep
 lunch box
 skunk
 debate
-simple 
+simple
 sneeze
 slippers
 hair salon
 it is strong
 msn
 funny
-pluto 
+pluto
 helicopter
 inception
 typical
@@ -5044,9 +5028,9 @@ frog
 reese witherspoon
 ticket
 lake
-savior 
+savior
 online
-colors 
+colors
 dark
 horse
 tiger
@@ -5054,7 +5038,7 @@ night club
 soft
 boston
 hour
-china 
+china
 sunglasses
 tutor
 toothbrush
@@ -5066,7 +5050,7 @@ snow cone
 s'mores
 cow
 park
-animal 
+animal
 queen
 parade
 light
@@ -5080,11 +5064,11 @@ internet
 bee
 mexico
 calendar
-artist 
+artist
 pictures
 warmth
 eggnog
-penalty 
+penalty
 legs
 wash
 engagement
@@ -5095,14 +5079,14 @@ fill
 head
 decorations
 money
-cloud 
+cloud
 barbeque
 sun-dried tomatoes
 smell
 wok
 terminator
-cape 
-rubber 
+cape
+rubber
 playing with play dough
 winter
 exhausted
@@ -5110,9 +5094,9 @@ abroad
 leopard
 white sheet
 rainbow
-chips 
+chips
 pecan pie
-coffee 
+coffee
 elf
 movie
 swing
@@ -5138,7 +5122,7 @@ nightmare
 gratitude
 photography
 white
-smolder 
+smolder
 frying pan
 wedding ring
 magazine
@@ -5149,7 +5133,7 @@ italy
 apple
 ray
 one smart cookie
-safety 
+safety
 thomas edison
 c-3p0
 jumping jack
@@ -5163,7 +5147,7 @@ front porch
 pose
 boredom
 first class
-family 
+family
 speakers
 televison
 clean
@@ -5183,14 +5167,14 @@ pogo stick
 comfort zone
 human
 screw driver
-sit 
-ticket agent 
+sit
+ticket agent
 shark
 addendum
 applause
 salad
 wriggle
-paper 
+paper
 green
 christian bale
 chocolate
@@ -5198,20 +5182,20 @@ peter pan
 squirrel
 long ago
 chicken
-pot 
+pot
 coal
 flat
 tobacco
 apple
 food
-white 
+white
 stamps
 life
 table
 pilot
 headband
 czar
-orange 
+orange
 sunglasses
 music
 patrick
@@ -5220,10 +5204,10 @@ biology
 flutter
 snow
 zoo
-hamburger 
+hamburger
 mountains
 ice skating
-circle 
+circle
 high
 harry houdini
 andy griffith
@@ -5238,7 +5222,7 @@ movie
 anastasia
 permit
 washing an elephant
-glue 
+glue
 pledge
 loving
 pilgrims
@@ -5247,12 +5231,12 @@ music
 sky
 danny glover
 dripping
-bubble 
+bubble
 caviar
 breakfast
 surf
 ingredient
-helicopter 
+helicopter
 carry a tune
 blow
 rocket
@@ -5263,15 +5247,15 @@ ice fishing
 avoid
 drive
 toast
-corn 
+corn
 animal
 blessings
-brown 
+brown
 frightened
 beautiful
 bear
 turtle
-pc 
+pc
 high
 flute
 kisses
@@ -5280,7 +5264,7 @@ snow
 queen
 mule
 roof
-black 
+black
 animal
 lips
 scarecrow
@@ -5306,7 +5290,7 @@ street
 transportation
 beautiful
 holiday
-round 
+round
 binoculars
 crown
 salt shaker
@@ -5318,7 +5302,7 @@ chairs
 welder
 equal
 cow
-sea 
+sea
 net
 cold
 behave
@@ -5373,7 +5357,7 @@ photo
 dancing a ballet
 sunny
 crocodile
-off 
+off
 los angeles
 girls
 chasing a tornado
@@ -5381,13 +5365,13 @@ piece of cake
 cliff
 cancer
 eat
-hate 
+hate
 vase
 rattan
-barbie 
+barbie
 good
 handwriting
-swimming 
+swimming
 worthless
 wireless
 hitter
@@ -5396,9 +5380,9 @@ bundt pan
 pumpkin pie
 christmas tree
 cheek
-violet 
+violet
 honeymoon
-tom and jerry 
+tom and jerry
 santa claus
 headset
 patrick henry
@@ -5410,16 +5394,16 @@ over
 back to school
 vest
 wings
-candle 
-throb 
-punk 
+candle
+throb
+punk
 bones
 sleepovers
 service
 talk
 bib
 needle
-cool 
+cool
 cricket
 spoon
 relax
@@ -5438,7 +5422,7 @@ fizz
 eats bamboo
 shark
 standard
-runway 
+runway
 tokyo
 warm
 independence day
@@ -5454,7 +5438,7 @@ honk
 tired
 harvest
 whisk
-ship 
+ship
 bolt
 kung fu panda
 regret
@@ -5465,10 +5449,10 @@ head
 ice
 fix
 desk
-brother 
+brother
 easel
 independence
-drink 
+drink
 joey
 spider
 button
@@ -5500,11 +5484,11 @@ catfish
 brand
 clown
 airport
-pink 
+pink
 test
 baguette
 friend
-hello 
+hello
 toys
 heart
 bible
@@ -5522,7 +5506,7 @@ shovel
 luke skywalker
 switzerland
 jury
-pan 
+pan
 rocking chair
 sea salt
 queen
@@ -5539,7 +5523,7 @@ c. s. lewis
 david beckham
 popcorn
 will smith
-yard 
+yard
 broom
 teacher
 sad
@@ -5553,13 +5537,12 @@ marriage
 pop music
 sunburn
 spill
-japan 
+japan
 steve jobs
-foot 
+foot
 worm
 snow
-eat 
-sport
+eat
 sheet
 storm
 bells
@@ -5570,15 +5553,15 @@ computer
 kite
 thirteen colonies
 round
-restaurant 
+restaurant
 bicycle
 doughnuts
 animal
 shine
 green
-curly tail 
+curly tail
 football
-water 
+water
 shopping cart
 fozzy
 hotel
@@ -5590,18 +5573,18 @@ jacket
 legs
 torch
 poop
-food 
+food
 jump
 home
 wright brothers
 big
-face 
+face
 car
 eagle
 wooden
 red
 cry
-meat 
+meat
 eats fish
 banana
 bat
@@ -5612,7 +5595,7 @@ car
 ipad
 fruit smoothie
 george lucas
-adventure 
+adventure
 new england
 candy
 bail
@@ -5637,7 +5620,7 @@ colander
 sunscreen
 trust
 deep
-wings 
+wings
 celebration
 sunday shoes
 resort
@@ -5677,13 +5660,13 @@ playing at a piano recital
 giraffe
 tall
 seagulls
-fruit 
+fruit
 french fries
-grain 
+grain
 land
 little drummer boy
 canoeing
-raincoat 
+raincoat
 liquid
 white
 letters
@@ -5711,18 +5694,18 @@ parks
 adjective
 kiss
 wheelchair
-vegetarian 
+vegetarian
 remember the titans
 robin
 idol
 finished
 broken
 bat
-desert 
+desert
 dive
-food 
+food
 europe
-hiking 
+hiking
 bluetooth
 bonfire
 help
@@ -5740,20 +5723,20 @@ sick
 school
 camera
 neil armstrong
-words 
+words
 pig
 quack
 joy
 helmet
 shanghai
 airplane
-nose 
+nose
 foil
 extension cord
 wind
 practicing karate
 trees
-caffeine 
+caffeine
 trash can
 football
 city
