@@ -2,7 +2,7 @@
 
 	"use strict";
 
-	var DEBUG = true;
+	var DEBUG = false;
 
 	if (!DEBUG) {
 		console = console || {};
