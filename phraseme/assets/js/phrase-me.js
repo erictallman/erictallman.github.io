@@ -306,8 +306,7 @@
 					},
 					{
 						alias: 'snap',
-						name: 'snap',
-						volume: 2
+						name: 'snap'
 					}
 				],
 				path: "assets/vendor/ion.sound-3.0.7/sounds/",
