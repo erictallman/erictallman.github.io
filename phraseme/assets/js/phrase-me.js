@@ -271,7 +271,7 @@
 			});
 			viewModel.winner.subscribe(function(newValue) {
 				if (newValue!==null) {
-					$('#end-of-round').flashAndHideElement(4, 400, 3000);
+					$('#end-of-round').flashAndHideElement(2, 400, 3000);
 				}
 			});
 		};

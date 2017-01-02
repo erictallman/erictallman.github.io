@@ -43,11 +43,12 @@
 					></button>
 				</div>
 				<div class="col-xs-4">
-					<button type="button" data-bind="click:$root.toggleFullscreen" class="btn btn-warning btn-block btn-lg"
+					<a href="javascript:void()" class="btn btn-warning btn-block btn-lg"
+							data-bind="click:$root.toggleFullscreen,attr:{title:($root.isFullscreen()?'Exit fullscreen':'Enter fullscreen')}"
 						><span class="h1"><span class="fa fa-fw"
 							data-bind="css:($root.isFullscreen()?'fa-compress':'fa-expand')" aria-hidden="true"
 						></span></span
-					></button>
+					></a>
 				</div>
 			</div>
 			<div class="row">
