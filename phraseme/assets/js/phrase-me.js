@@ -2,7 +2,7 @@
 
 	"use strict";
 
-	var DEBUG = false;
+	var DEBUG = true;
 
 	if (!DEBUG) {
 		console = console || {};
@@ -16,7 +16,6 @@
 		};
 
 		var countdownIntervalFunction = null;
-		var runningIntervalFunction = null;
 
 		var countdownFunc = function() {
 			if (viewModel.timeLeft()>0) {
@@ -24,13 +23,13 @@
 			}
 		};
 
-		var runningFunc = function() {
-			$.ionSound.play('snap');
-		};
-
 		var words = [];
 
 		var storage = null;
+
+		var tickSound = null;
+
+		var roundEndSound = null;
 
 		var viewModel = {
 
@@ -45,8 +44,6 @@
 			timeLeft: ko.observable(60),
 
 			paused: ko.observable(true),
-
-			repeatSpeed: ko.observable(1500),
 
 			winner: ko.observable(null),
 
@@ -65,9 +62,14 @@
 			},
 
 			goStop: function() {
-				// don't let them restart on a paused word
 				if (viewModel.paused()) {
+					// don't let them restart on a paused word
 					viewModel.word(fetchRandomWord());
+					// play the sound
+					tickSound.play();
+				} else {
+					// pause the sound
+					tickSound.pause();
 				}
 				viewModel.paused(!viewModel.paused());
 			},
@@ -210,20 +212,22 @@
 		var setupKnockout = function() {
 			/* hook up knockout to observables */
 			ko.applyBindings(viewModel);
-			viewModel.timeLeft.extend({rateLimit: 100});
+			//viewModel.timeLeft.extend({rateLimit: 100});
 			viewModel.timeLeft.subscribe(function(newValue) {
 				console.log("time left: " + newValue);
 				if (newValue > 30 && newValue < 46) {
-					viewModel.repeatSpeed(1200);
-				} else if (newValue > 15 && newValue < 31) {
-					viewModel.repeatSpeed(1000);
-				} else if (newValue > 0 && newValue < 16) {
-					viewModel.repeatSpeed(500);
+					tickSound.rate(0.5);
+				} else if (newValue > 20 && newValue < 31) {
+					tickSound.rate(1);
+				} else if (newValue > 10 && newValue < 21) {
+					tickSound.rate(2.25);
+				} else if (newValue > 0 && newValue < 11) {
+					tickSound.rate(3.5);
 				} else if (newValue <= 0) {
-					viewModel.repeatSpeed(1500);
-					viewModel.timeLeft(60);
+					tickSound.rate(0.25);
 					viewModel.goStop();
-					$.ionSound.play('bell_ring');
+					viewModel.timeLeft(60);
+					roundEndSound.play();
 					$('#end-of-round').flashAndHideElement(2, 400, 2000);
 				}
 			});
@@ -234,23 +238,9 @@
 						clearTimeout(countdownIntervalFunction);
 						countdownIntervalFunction = null;
 					}
-					if (runningIntervalFunction !== null) {
-						clearTimeout(runningIntervalFunction);
-						runningIntervalFunction = null;
-					}
 				} else {
 					console.log("not paused... queuing up");
 					countdownIntervalFunction = setInterval(countdownFunc, 1000);
-					runningIntervalFunction = setInterval(runningFunc, viewModel.repeatSpeed());
-				}
-			});
-			viewModel.repeatSpeed.subscribe(function(newValue) {
-				if (runningIntervalFunction !== null) {
-					clearTimeout(runningIntervalFunction);
-					runningIntervalFunction = null;
-				}
-				if (!viewModel.paused()) {
-					runningIntervalFunction = setInterval(runningFunc, newValue);
 				}
 			});
 			viewModel.team1Score.subscribe(function(newValue) {
@@ -298,19 +288,22 @@
 			});
 
 			// config sounds
-			$.ionSound({
-				sounds: [
-					{
-						alias: 'bell_ring',
-						name: 'bell_ring'
-					},
-					{
-						alias: 'snap',
-						name: 'snap'
-					}
+			tickSound = new Howl({
+				src: [
+					'assets/vendor/ion.sound-3.0.7/sounds/snap.aac',
+					'assets/vendor/ion.sound-3.0.7/sounds/snap.ogg',
+					'assets/vendor/ion.sound-3.0.7/sounds/snap.mp3'
 				],
-				path: "assets/vendor/ion.sound-3.0.7/sounds/",
-				preload: true
+				loop: true,
+				rate: 0.25
+			});
+			roundEndSound = new Howl({
+				src: [
+					'assets/vendor/ion.sound-3.0.7/sounds/bell_ring.aac',
+					'assets/vendor/ion.sound-3.0.7/sounds/bell_ring.ogg',
+					'assets/vendor/ion.sound-3.0.7/sounds/bell_ring.mp3',
+				],
+				loop: false
 			});
 
 			// configure local storage (to store recently used words)
