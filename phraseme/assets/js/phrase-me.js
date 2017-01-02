@@ -2,7 +2,7 @@
 
 	"use strict";
 
-	var DEBUG = false;
+	var DEBUG = true;
 
 	if (!DEBUG) {
 		console = console || {};
@@ -49,6 +49,20 @@
 			repeatSpeed: ko.observable(1500),
 
 			winner: ko.observable(null),
+
+			isFullscreen: ko.observable(false),
+
+			toggleFullscreen: function() {
+				if (screenfull.enabled) {
+					if (screenfull.isFullscreen) {
+						screenfull.exit();
+						viewModel.isFullscreen(false);
+					} else {
+						screenfull.request();
+						viewModel.isFullscreen(true);
+					}
+				}
+			},
 
 			goStop: function() {
 				// don't let them restart on a paused word
@@ -263,13 +277,27 @@
 		};
 
 		var init = function() {
+
+			// pull team scores from cookies into observables before we hook up knockout
+			if ($.cookie('pm-team1-score')!==undefined) {
+				viewModel.team1Score($.cookie('pm-team1-score'));
+			}
+			if ($.cookie('pm-team2-score')!==undefined) {
+				viewModel.team2Score($.cookie('pm-team2-score'));
+			}
+
+			// config knockout
 			setupKnockout();
+
+			// pull word list
 			$.get('assets/data/all.txt', function(data) {
 				words = $.grep(data.split("\n"), function(line) {
 					return line!='' && line.indexOf('#')!=0;
 				});
 				console.log(words);
 			});
+
+			// config sounds
 			$.ionSound({
 				sounds: [
 					{
@@ -278,26 +306,22 @@
 					},
 					{
 						alias: 'snap',
-						name: 'snap'
+						name: 'snap',
+						volume: 2
 					}
 				],
 				path: "assets/vendor/ion.sound-3.0.7/sounds/",
 				preload: true
 			});
+
+			// configure local storage (to store recently used words)
 			if (viewModel.hasLocalStorage()) {
 				storage = $.localStorage;
 			}
+
 		};
 
 		phraseMe.viewModel = viewModel;
-
-		// pull team scores from cookies
-		if ($.cookie('pm-team1-score')!==undefined) {
-			viewModel.team1Score($.cookie('pm-team1-score'));
-		}
-		if ($.cookie('pm-team2-score')!==undefined) {
-			viewModel.team2Score($.cookie('pm-team2-score'));
-		}
 
 		init();
 

@@ -1,3 +1,15 @@
+html {
+	background: #2b3e50;
+}
+
+.no-inner-gutter > [class*='col-']:not(:last-child) {
+    padding-right: 0;
+}
+
+.no-inner-gutter > [class*='col-']:not(:first-child) {
+    padding-left: 0;
+}
+
 hr {
 	margin-bottom: 10px;
 	margin-top: 10px;
@@ -14,17 +26,17 @@ hr {
 	z-index: 1000;
 }
 
-#end-of-round .glyphicon {
+#end-of-round .fa {
 	background: #fff;
 	border: 20px solid #fff;
 	border-radius: 10px;
 }
 
-#end-of-round .glyphicon-thumbs-down {
+#end-of-round .fa.fa-times {
 	color: darkred;
 }
 
-#end-of-round .glyphicon-thumbs-up {
+#end-of-round .fa.fa-trophy {
 	color: green;
 }
 

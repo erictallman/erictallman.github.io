@@ -17,6 +17,8 @@
 		<!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
 				integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous" -->
 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 		<link rel="stylesheet" href="assets/css/style.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -30,19 +32,28 @@
 	<body>
 		<div class="container text-center">
 			<div id="end-of-round" style="display: none;"
-				><span class="glyphicon"
-					data-bind="css:($root.winner()!==null?'glyphicon-thumbs-up':'glyphicon-thumbs-down')" aria-hidden="true"
+				><span class="fa fa-fw"
+					data-bind="css:($root.winner()!==null?'fa-trophy':'fa-times')" aria-hidden="true"
 				></span><div class="winning-team" data-bind="visible:$root.winner()!==null,text:'Team '+$root.winner()+ ' Wins!'"
 			></div></div>
-			<div class="row">
-				<div class="col-xs-12">
+			<div class="row no-inner-gutter">
+				<div class="col-xs-8">
 					<button type="button" data-bind="click:$root.goStop" class="btn btn-primary btn-block btn-lg"
 						><span class="h1" data-bind="text:($root.paused()?'Start':'Pause')"></span
 					></button>
 				</div>
+				<div class="col-xs-4">
+					<button type="button" data-bind="click:$root.toggleFullscreen" class="btn btn-warning btn-block btn-lg"
+						><span class="h1"><span class="fa fa-fw"
+							data-bind="css:($root.isFullscreen()?'fa-compress':'fa-expand')" aria-hidden="true"
+						></span></span
+					></button>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-xs-12">
 					<div class="jumbotron">
-						<div data-bind="text:$root.word()||'*Ready to go*'"></div>
+						<div data-bind="text:$root.word()||'*ready to go*'"></div>
 					</div>
 				</div>
 				<div class="col-xs-12">
@@ -55,13 +66,13 @@
 					<div class="h3 team-score">
 						<span data-bind="text:$root.team1Score"></span
 						><button type="button" class="btn btn-sm btn-info" data-bind="click:$root.incrementTeam1Score"
-							><span class="glyphicon glyphicon-plus" aria-hidden="true"></span
+							><span class="fa fa-fw fa-plus" aria-hidden="true"></span
 						></button
 						><button type="button" class="btn btn-sm btn-default" data-bind="click:$root.decrementTeam1Score"
-							><span class="glyphicon glyphicon-minus" aria-hidden="true"></span
+							><span class="fa fa-fw fa-minus" aria-hidden="true"></span
 						></button
 						><button type="button" class="btn btn-sm btn-default" data-bind="click:$root.resetTeam1Score"
-							><span class="glyphicon glyphicon-remove" aria-hidden="true"></span
+							><span class="fa fa-fw fa-times" aria-hidden="true"></span
 						></button>
 					</div>
 				</div>
@@ -70,13 +81,13 @@
 					<div class="h3 team-score">
 						<span data-bind="text:$root.team2Score"></span
 						><button type="button" class="btn btn-sm btn-danger" data-bind="click:$root.incrementTeam2Score"
-							><span class="glyphicon glyphicon-plus" aria-hidden="true"></span
+							><span class="fa fa-fw fa-plus" aria-hidden="true"></span
 						></button
 						><button type="button" class="btn btn-sm btn-default" data-bind="click:$root.decrementTeam2Score"
-							><span class="glyphicon glyphicon-minus" aria-hidden="true"></span
+							><span class="fa fa-fw fa-minus" aria-hidden="true"></span
 						></button
 						><button type="button" class="btn btn-sm btn-default" data-bind="click:$root.resetTeam2Score"
-							><span class="glyphicon glyphicon-remove" aria-hidden="true"></span
+							><span class="fa fa-fw fa-times" aria-hidden="true"></span
 						></button>
 					</div>
 				</div>
@@ -91,7 +102,7 @@
 		</script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
-		<script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/3.0.2/screenfull.min.js"></script>
 		<script src="assets/vendor/ion.sound-3.0.7/ion.sound.min.js"></script>
 		<script src="assets/js/modernizr-custom.js"></script>
 		<script src="assets/js/jquery.cookie.js"></script>
