@@ -1,0 +1,22 @@
+html {
+	//background: #2b3e50;
+}
+
+.no-inner-gutter > [class*='col-']:not(:last-child) {
+	padding-right: 0;
+}
+
+.no-inner-gutter > [class*='col-']:not(:first-child) {
+	padding-left: 0;
+}
+
+#loading-spinner {
+	width: 25px;
+	height: 28px;
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: -12px;
+	z-index: 2000;
+}
+
