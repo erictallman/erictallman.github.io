@@ -88,7 +88,7 @@
 		var fetchWeather = function() {
 			if (viewModel.single.currentTemp()==null) {
 				return $.ajax({
-					'url': 'http://api.openweathermap.org/data/2.5/weather?'
+					'url': 'https://api.openweathermap.org/data/2.5/weather?'
 							+ 'zip=' + viewModel.single.zipCode()
 							+ '&appid=' + viewModel.single.weatherApiKey()
 							+ '&units=imperial',
