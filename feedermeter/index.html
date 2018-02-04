@@ -34,6 +34,7 @@
 						<li class="active"><a href="#login" data-bind="text:($root.flag.isLoggedIn()?'Logout':'Login')">Login</a></li>
 						<li class="active"><a href="#add-entry">Add Entry</a></li>
 						<li class="active"><a href="#stats">Stats</a></li>
+						<li class="active"><a href="#stats-graph">Stats Graph</a></li>
 					</ul>
 				</div>
 			</div>
@@ -104,6 +105,8 @@
 						<thead>
 							<tr>
 								<th>Reading</th>
+								<th>Running Total</th>
+								<th>Change Since Last</th>
 								<th>Outside &deg;F</th>
 								<th>Timestamp</th>
 							</tr>
@@ -111,6 +114,8 @@
 						<tbody data-bind="foreach:collection.readings, visible:collection.readings().length > 0">
 							<tr>
 								<td><span data-bind="text:$data.reading"></span></td>
+								<td><span data-bind="text:$data.adjusted_reading"></span></td>
+								<td><span data-bind="nullText:$data.change_since_last"></span></td>
 								<td><span data-bind="nullText:$data.outside_temp"></span></td>
 								<td><span data-bind="text:$data.created_ts"></span></td>
 							</tr>
@@ -118,6 +123,17 @@
 					</table>
 				</div>
 				<h4 data-bind="visible:collection.readings().length == 0 && !flag.loading()" class="text-center">There are no reads</h4>
+			</div>
+
+			<div class="stats-graph-page" style="display: none;">
+				<div class="row">
+					<div class="col-xs-12">
+						<h3>Stats Graph</h3>
+					</div>
+				</div>
+				<div class="row">
+					<canvas id="readings-graph"></canvas>
+				</div>
 			</div>
 
 		</div>
@@ -131,6 +147,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha256-1A78rJEdiWTzco6qdn3igTBv9VupN3Q1ozZNTR4WE/Y=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-json/2.6.0/jquery.json.min.js" integrity="sha256-Ac6pM19lP690qI07nePO/yY6Ut3c7KM9AgNdnc5LtrI=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-hashchange/1.3/jquery.ba-hashchange.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
 		<script src="https://apps.getpario.com/app/525/api/pario-api.js"></script>
 		<script src="https://apps.getpario.com/app/525/api/pario-nav.js"></script>
 		<script src="assets/js/stats.js"></script>

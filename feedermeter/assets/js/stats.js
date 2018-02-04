@@ -53,7 +53,34 @@
 
 			collection: {
 
-				readings: ko.mapping.fromJS([])
+				readings: ko.mapping.fromJS([]),
+
+                readingsForGraph: ko.computed({read: function() {
+                    var result = ko.utils.arrayMap(viewModel.collection.readings(), function(reading) {
+						return {
+							t: ko.unwrap(reading.created_ts),
+							y: ko.unwrap(reading.adjusted_reading)
+						};
+                    });
+					console.log(result);
+					return result;
+                }, deferEvaluation: true}),
+
+                estimatedReadingsForGraph: ko.computed({read: function() {
+					var arr = viewModel.collection.readings();
+					var start = new Date(ko.unwrap(arr[arr.length-1].created_ts)); // earliest reading comes in last
+					console.log("start: " + start.getTime());
+                    var result = ko.utils.arrayMap(viewModel.collection.readings(), function(reading) {
+						var curr = new Date(ko.unwrap(reading.created_ts));
+						console.log("curr: " + curr.getTime());
+						return {
+							t: ko.unwrap(reading.created_ts),
+							y: 50 + (((curr.getTime()-start.getTime())/86400000)*10)
+						};
+                    });
+					console.log(result);
+					return result;
+                }, deferEvaluation: true})
 
 			},
 
@@ -128,6 +155,47 @@
 				});
 			}
 			return logout();
+		};
+
+		var buildStatsGraph = function() {
+			var ctx = $('#readings-graph')[0].getContext('2d');
+			var myChart = new Chart(ctx, {
+				type: 'line',
+				data: {
+					datasets: [
+						{
+							label: 'Actual Readings',
+							backgroundColor: 'rgba(0,0,200,.4)',
+							borderColor: '#0000ff',
+							data: viewModel.collection.readingsForGraph()
+						},
+						{
+							label: 'Estimated Readings',
+							backgroundColor: 'rgba(200,0,0,.4)',
+							borderColor: '#ff0000',
+							data: viewModel.collection.estimatedReadingsForGraph()
+						}
+					]
+				},
+				options: {
+					scales: {
+						xAxes: [{
+							type: 'time',
+							time: {
+								unit: 'week',
+								displayFormats: {
+									week: 'MMM D YYYY'
+								}
+							}
+						}],
+						yAxes: [{
+							ticks: {
+								beginAtZero: true
+							}
+						}]
+					}
+				}
+			});
 		};
 
 		/**
@@ -361,6 +429,17 @@
 					fetchReadings().always(function() {
 						if (typeof(showPage)=='function') {
 							showPage();
+						}
+					});
+				});
+			},
+
+			'stats-graph': function(page, showPage) {
+				return checkLogin(page).done(function() {
+					fetchReadings().always(function() {
+						if (typeof(showPage)=='function') {
+							showPage();
+							buildStatsGraph();
 						}
 					});
 				});
