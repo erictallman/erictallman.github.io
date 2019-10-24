@@ -107,4 +107,46 @@ i {
 	position: relative;
 	padding:0px;
 }
-.card .card-image span.card-title i{ cursor:pointer;}
+.card .card-image span.card-title i {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 599px) {
+
+	body .container {
+		width: unset;
+	}
+
+	body .right-side .block {
+		margin-left: unset;
+	}
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+	body {
+		background-color: #555;
+		color: #fff;
+	}
+
+	body .content {
+		background-color: #222;
+	}
+
+	body .content a {
+		color: #999 !important;
+		font-style: italic;
+		text-decoration: underline;
+	}
+
+	body .content h5, body .content p {
+		color: #fff !important;
+	}
+
+	body i[class*=' mdi-'],i[class^='mdi-'] {
+		color: #ccc !important;
+	}
+
+}
+
