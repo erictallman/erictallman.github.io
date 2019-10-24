@@ -17,8 +17,11 @@ body {
 	border-radius: 2px;
 	overflow: hidden;
 	z-index: 9;
-	margin-top: -120px;
-	margin-bottom:50px;
+	margin-top: -180px;
+	margin-bottom: 20px;
+}
+.content .row {
+	margin-bottom: unset;
 }
 img.responsive-img {
 	max-width: 100%;
