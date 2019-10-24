@@ -12,7 +12,7 @@ body {
 	position:relative;
 }
 .content {
-	background-color: #fff;
+	background-color: #fafafa;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 	border-radius: 2px;
 	overflow: hidden;
@@ -74,7 +74,7 @@ i {
 	height: 100%;
 	font-size: 12px;
 	line-height: 20px;
-	color: #fff;
+	color: #fafafa;
 	text-align: center;
 	background-color: #337ab7;
 	-webkit-transition: width .6s ease;
@@ -127,7 +127,7 @@ i {
 
 	body {
 		background-color: #555;
-		color: #fff;
+		color: #fafafa;
 	}
 
 	body #top-bar {
@@ -139,13 +139,13 @@ i {
 	}
 
 	body .content a {
-		color: #fff !important;
+		color: #fafafa !important;
 		font-style: italic;
 		text-decoration: underline;
 	}
 
 	body .content h5, body .content p {
-		color: #fff !important;
+		color: #fafafa !important;
 	}
 
 	body i[class*=' mdi-'],i[class^='mdi-'] {
