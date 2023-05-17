@@ -59,14 +59,20 @@ section ul {
 	padding-left: 2rem;
 }
 
-section ul li {
-	list-style-type: disc;
+section#skills-and-tech ul {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
 }
 
-section.col-count-3 ul {
+section#languages ul, section#dbs ul, section#vcs ul {
 	-webkit-column-count: 3;
 	-moz-column-count: 3;
 	column-count: 3;
+}
+
+section ul li {
+	list-style-type: disc;
 }
 
 #top-bar {
@@ -163,6 +169,12 @@ i {
 	body .block {
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	section#skills-and-tech ul, section#languages ul, section#dbs ul, section#vcs ul {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
 	}
 
 }
